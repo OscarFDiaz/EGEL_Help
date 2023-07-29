@@ -2,9 +2,16 @@
 /* Definimos las Custom properties */
 :root {
   /* Colores */
-  --negro: #1f1d28;
+  --negro: var(--primary);
+  --primary: #1f1d28;
+  --secondary: #0648fc;
+  --third: #4e4c4e;
+  --black: #000;
+  --white: #fff;
+  --text: #201f20;
+  --subtext: #a39fa2;
   /* Tipografía */
-  --tipo-principal: 'Poppins', sans-serif;
+  --tipo-principal: "Poppins", sans-serif;
   --tipo-secundaria: Verdana;
 }
 
@@ -14,7 +21,6 @@
     --negro: #ececec;
   }
 }
-/* (Opcional) Configuramos si un usuario ha activado el modo alto contraste. (WD) */
 /* (Opcional) Desactivamos los animations en el caso de que el usuario haya configurado el modo sin animation */
 @media (prefers-reduced-motion: reduce) {
   * {
@@ -104,7 +110,7 @@ blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-  content: '';
+  content: "";
   content: none;
 }
 
@@ -127,8 +133,6 @@ label {
   background-color: transparent;
   color: inherit;
   display: block;
-  /* (Opcional) */
-  appearance: none;
 }
 
 /* Reseteamos las tablas */
@@ -149,9 +153,11 @@ svg {
 /* Configuramos la tipografía para toda la web */
 body {
   min-height: 100vh;
+  width: 100%;
   font-size: 100%;
   font-family: var(--tipo-principal);
-  color: var(--negro);
+  color: var(--white);
+  background: var(--primary);
   /* (Opcional) */
   hyphens: auto;
   /* (Opcional) */
@@ -160,6 +166,158 @@ body {
   -webkit-font-smoothing: antialiased;
   /* (Opcional) */
   -moz-osx-font-smoothing: grayscale;
+}
+
+.question {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 2rem;
+  max-width: 50%;
+  color: #201f20;
+}
+.question__answers {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  justify-content: center;
+  align-items: stretch;
+  gap: 1rem;
+}
+.question__buttons {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  align-items: stretch;
+  gap: 1rem;
+  padding-top: 2rem;
+  width: 100%;
+}
+.question__button {
+  cursor: pointer;
+  padding: 1rem;
+  border: 1px solid #4e4c4e;
+  border-radius: 1rem;
+  width: 100%;
+  transition: transform 200ms linear;
+}
+.question__button:hover {
+  transform: scale(0.98);
+  border: 1px solid #0648fc;
+}
+.question__button:active {
+  transform: scale(1.1);
+}
+.question__button--back {
+  font-family: Poppins;
+  font-size: inherit;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: inherit;
+  border: none;
+}
+.question__button--next {
+  font-family: Poppins;
+  font-size: inherit;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: inherit;
+  color: #fff;
+  background-color: #0648fc;
+}
+.question__container {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  justify-content: flex-start;
+  align-items: stretch;
+  gap: 1rem;
+}
+.question__input {
+  cursor: pointer;
+  display: none;
+  border-radius: 0.4rem;
+}
+.question__input:checked + label {
+  background-color: rgba(6, 72, 252, 0.3);
+  border: 2px solid #0648fc;
+  border-width: 2px;
+}
+.question__label {
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  align-content: _;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid rgba(78, 76, 78, 0.5);
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 200ms linear;
+}
+.question__label:hover {
+  background-color: rgba(6, 72, 252, 0.3);
+}
+.question__p {
+  color: #201f20;
+}
+.question__question {
+  font-family: Poppins;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: normal;
+  color: #201f20;
+}
+.question__subtitle {
+  font-family: Poppins;
+  font-size: 0.8rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: normal;
+  color: #a39fa2;
+  align-self: flex-start;
+}
+
+.main {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 32px 0;
+}
+@media (max-width: 760px) {
+  .main {
+    padding: 1rem;
+  }
+}
+
+.section__question {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 32px 0;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-around;
+  align-items: center;
+}
+@media (max-width: 760px) {
+  .section__question {
+    padding: 1rem;
+  }
 }
 
 /*# sourceMappingURL=App.css.map */

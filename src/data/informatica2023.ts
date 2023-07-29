@@ -21,9 +21,14 @@ export const informatica2023: Props = {
     {
       number: 1,
       type: 'multiple',
-      question: 'Pregunta numero uno?',
-      correct_answer: 'Respuesta correcta',
-      answers: ['Respuesta posible', 'Segunda posibilidad', 'Tercera posibilidad'],
+      question: ' ¿Cuál de los siguientes términos describe las pruebas?',
+      correct_answer: 'Evaluar entregable para encontrar errores.',
+      answers: [
+        'Encontrando código roto',
+        ' Evaluar entregable para encontrar errores.',
+        'Una etapa de todos los proyectos.',
+        'Ninguna de las mencionadas',
+      ],
     },
     {
       number: 2,

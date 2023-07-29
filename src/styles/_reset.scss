@@ -1,7 +1,15 @@
 /* Definimos las Custom properties */
 :root {
   /* Colores */
-  --negro: #393939;
+  --negro: var(--primary);
+
+  --primary: #1f1d28;
+  --secondary: #0648fc;
+  --third: #4e4c4e;
+  --black: #000;
+  --white: #fff;
+  --text: #201f20;
+  --subtext: #a39fa2;
 
   /* Tipografía */
   --tipo-principal: 'Poppins', sans-serif;
@@ -12,12 +20,6 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --negro: #ececec;
-  }
-}
-
-/* (Opcional) Configuramos si un usuario ha activado el modo alto contraste. (WD) */
-@media (prefers-contrast: high) {
-  :root {
   }
 }
 
@@ -131,8 +133,6 @@ label {
   background-color: transparent;
   color: inherit;
   display: block;
-  /* (Opcional) */
-  appearance: none;
 }
 
 /* Reseteamos las tablas */
@@ -153,9 +153,11 @@ svg {
 /* Configuramos la tipografía para toda la web */
 body {
   min-height: 100vh;
+  width: 100%;
   font-size: 100%;
   font-family: var(--tipo-principal);
-  color: var(--negro);
+  color: var(--white);
+  background: var(--primary);
   /* (Opcional) */
   hyphens: auto;
   /* (Opcional) */

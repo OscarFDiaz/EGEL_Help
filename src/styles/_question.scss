@@ -1,0 +1,111 @@
+@import 'mixins';
+
+$primary: #1f1d28;
+$secondary: #0648fc;
+$third: #4e4c4e;
+$black: #000;
+$white: #fff;
+$text: #201f20;
+$subtext: #a39fa2;
+
+.question {
+  @include flex(column);
+
+  padding: 2rem;
+  background-color: $white;
+  border-radius: 2rem;
+  max-width: 50%;
+
+  color: $text;
+  &__answer {
+    // Not needed
+  }
+  &__answers {
+    // Question container
+    @include flex(column, flex-start, center, stretch);
+    gap: 1rem;
+  }
+
+  &__buttons {
+    @include flex(row, center, center, stretch);
+    gap: 1rem;
+    padding-top: 2rem;
+    width: 100%;
+  }
+  &__button {
+    cursor: pointer;
+    padding: 1rem;
+    border: 1px solid $third;
+    border-radius: 1rem;
+    width: 100%;
+    transition: transform 200ms linear;
+
+    &:hover {
+      transform: scale(0.98);
+      border: 1px solid $secondary;
+    }
+
+    &:active {
+      transform: scale(1.1);
+    }
+
+    &--back {
+      @include font(inherit, 600, inherit);
+      border: none;
+    }
+    &--next {
+      @include font(inherit, 600, inherit);
+      color: $white;
+
+      background-color: $secondary;
+    }
+  }
+
+  &__container {
+    // Card container
+    @include flex(column, flex-start, flex-start, stretch);
+    gap: 1rem;
+  }
+
+  &__input {
+    // Radial input
+    cursor: pointer;
+    display: none;
+    border-radius: 0.4rem;
+
+    &:checked + label {
+      background-color: rgba($color: $secondary, $alpha: 0.3);
+      border: 2px solid $secondary;
+      border-width: 2px;
+    }
+  }
+  &__label {
+    cursor: pointer;
+    @include flex(row, _, flex-start);
+    gap: 1rem;
+    padding: 1rem;
+
+    border-radius: 0.5rem;
+    border: 1px solid rgba($color: $third, $alpha: 0.5);
+    font-weight: 500;
+
+    cursor: pointer;
+    transition: background-color 200ms linear;
+
+    &:hover {
+      background-color: rgba($color: $secondary, $alpha: 0.3);
+    }
+  }
+  &__p {
+    color: $text;
+  }
+  &__question {
+    @include font(2rem, 600, normal);
+    color: $text;
+  }
+  &__subtitle {
+    @include font(0.8rem, 400, normal);
+    color: $subtext;
+    align-self: flex-start;
+  }
+}

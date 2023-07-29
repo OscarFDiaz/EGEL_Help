@@ -1,0 +1,13 @@
+@import 'colors';
+@import 'mixins';
+
+.main {
+  @include container();
+}
+
+.section {
+  &__question {
+    @include container();
+    @include flex();
+  }
+}
