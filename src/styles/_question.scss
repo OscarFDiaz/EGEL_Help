@@ -9,7 +9,7 @@ $text: #201f20;
 $subtext: #a39fa2;
 
 .question {
-  @include flex(column);
+  @include flex(column, center, space-around, flex-start);
 
   padding: 2rem;
   background-color: $white;
@@ -65,6 +65,7 @@ $subtext: #a39fa2;
     // Card container
     @include flex(column, flex-start, flex-start, stretch);
     gap: 1rem;
+    width: 100%;
   }
 
   &__input {

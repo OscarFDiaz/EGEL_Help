@@ -173,7 +173,7 @@ body {
   flex-direction: column;
   align-content: center;
   justify-content: space-around;
-  align-items: center;
+  align-items: flex-start;
   padding: 2rem;
   background-color: #fff;
   border-radius: 2rem;
@@ -239,6 +239,7 @@ body {
   justify-content: flex-start;
   align-items: stretch;
   gap: 1rem;
+  width: 100%;
 }
 .question__input {
   cursor: pointer;
