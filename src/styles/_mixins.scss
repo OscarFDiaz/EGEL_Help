@@ -27,7 +27,7 @@
   margin: 0 auto;
   padding: $padding;
   @include media(760px) {
-    padding: 1rem;
+    padding: 0;
   }
 }
 

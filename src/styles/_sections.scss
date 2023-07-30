@@ -3,11 +3,29 @@
 
 .main {
   @include container();
+
+  display: grid;
+  place-items: center;
+  padding: 0;
+
+  transition: all padding 200ms linear;
+
+  @include media(425px) {
+    width: 95%;
+  }
 }
 
 .section {
   &__question {
     @include container();
     @include flex();
+    transition: width, padding 200ms linear;
+
+    height: 100vh;
+    padding: 0;
+
+    @include media(768px) {
+      width: 100%;
+    }
   }
 }

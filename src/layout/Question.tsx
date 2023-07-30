@@ -26,10 +26,10 @@ export const Question = () => {
         {/* Question */}
         <h2 className="question__question">{question}</h2>
         {/* 
-            Section for the answers 
-            Section contains the posible answers and correct
-            Each answer is a div
-          */}
+              Section for the answers 
+              Section contains the posible answers and correct
+              Each answer is a div
+            */}
         <section className="question__answers">
           {answers.map((answer, i) => (
             <div key={i} className="question__answer">
@@ -52,7 +52,6 @@ export const Question = () => {
           ))}
         </section>
       </div>
-
       <div className="question__buttons">
         {questionIndex !== 0 && (
           <button

@@ -159,7 +159,7 @@ body {
   color: var(--white);
   background: var(--primary);
   /* (Opcional) */
-  hyphens: auto;
+  hyphens: none;
   /* (Opcional) */
   font-smooth: always;
   /* (Opcional) */
@@ -172,13 +172,25 @@ body {
   display: flex;
   flex-direction: column;
   align-content: center;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: flex-start;
   padding: 2rem;
   background-color: #fff;
   border-radius: 2rem;
-  max-width: 50%;
+  width: 50%;
+  height: 80vh;
   color: #201f20;
+  transition: width 200ms linear;
+}
+@media (max-width: 1024px) {
+  .question {
+    width: 70%;
+  }
+}
+@media (max-width: 768px) {
+  .question {
+    width: 100%;
+  }
 }
 .question__answers {
   display: flex;
@@ -236,10 +248,12 @@ body {
   display: flex;
   flex-direction: column;
   align-content: flex-start;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: stretch;
   gap: 1rem;
   width: 100%;
+  height: 100%;
+  overflow: auto;
 }
 .question__input {
   cursor: pointer;
@@ -280,6 +294,24 @@ body {
   line-height: normal;
   text-transform: normal;
   color: #201f20;
+  white-space: pre-line;
+  transition: all 200ms linear;
+  overflow: auto;
+}
+.question__question::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+  background: #a39fa2;
+  border-radius: 20px;
+}
+.question__question::-webkit-scrollbar-thumb {
+  border-radius: 20px;
+  background: #0648fc;
+}
+@media (max-width: 425px) {
+  .question__question {
+    font-size: 1.3rem;
+  }
 }
 .question__subtitle {
   font-family: Poppins;
@@ -292,15 +324,36 @@ body {
   align-self: flex-start;
 }
 
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+  background: #a39fa2;
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 20px;
+  background: #0648fc;
+}
+
 .main {
   width: 90%;
   max-width: 1200px;
   margin: 0 auto;
   padding: 32px 0;
+  display: grid;
+  place-items: center;
+  padding: 0;
+  transition: all padding 200ms linear;
 }
 @media (max-width: 760px) {
   .main {
-    padding: 1rem;
+    padding: 0;
+  }
+}
+@media (max-width: 425px) {
+  .main {
+    width: 95%;
   }
 }
 
@@ -314,10 +367,18 @@ body {
   align-content: center;
   justify-content: space-around;
   align-items: center;
+  transition: width, padding 200ms linear;
+  height: 100vh;
+  padding: 0;
 }
 @media (max-width: 760px) {
   .section__question {
-    padding: 1rem;
+    padding: 0;
+  }
+}
+@media (max-width: 768px) {
+  .section__question {
+    width: 100%;
   }
 }
 
