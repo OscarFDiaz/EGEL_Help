@@ -16,6 +16,7 @@ $subtext: #a39fa2;
   border-radius: 2rem;
   width: 50%;
   height: 80vh;
+  max-height: 840px;
 
   color: $text;
   transition: width 200ms linear;
@@ -97,11 +98,12 @@ $subtext: #a39fa2;
     display: none;
     border-radius: 0.4rem;
 
-    &:checked + label {
-      background-color: rgba($color: $secondary, $alpha: 0.3);
-      border: 2px solid $secondary;
-      border-width: 2px;
-    }
+    // This is to check the answer but it doesnt say if is correct or incorrect
+    // &:checked + label {
+    //   background-color: rgba($color: $secondary, $alpha: 0.3);
+    //   border: 2px solid $secondary;
+    //   border-width: 2px;
+    // }
   }
   &__label {
     cursor: pointer;
@@ -116,8 +118,18 @@ $subtext: #a39fa2;
     cursor: pointer;
     transition: background-color 200ms linear;
 
+    &--correct {
+      background-color: rgba(61, 233, 78, 0.3);
+      border: 2px solid #3de94e;
+    }
+    &--incorrect {
+      background-color: rgba(233, 76, 61, 0.3);
+      border: 2px solid #e94c3d;
+    }
+
     &:hover {
       background-color: rgba($color: $secondary, $alpha: 0.3);
+      border-color: $secondary;
     }
   }
   &__p {
@@ -153,5 +165,9 @@ $subtext: #a39fa2;
     @include font(0.8rem, 400, normal);
     color: $subtext;
     align-self: flex-start;
+
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
   }
 }

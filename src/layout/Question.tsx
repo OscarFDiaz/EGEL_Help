@@ -8,18 +8,25 @@ export const Question = () => {
     questionIndex,
     questionAmount,
     selectedAnswers,
+    isAnswerCorrect,
+    correctAnswers,
+    incorrectAnswers,
     handleAnswerChange,
     handleNextQuestion,
     handlePrevQuestion,
   } = useHandleQuestion();
 
-  // Not used: correct_answer, number, type
-  const { answers, question, number } = questions[questionIndex];
+  const { answers, question, number, correct_answer } = questions[questionIndex];
 
   return (
     <div className="question">
       <h3 className="question__subtitle">
-        Selecciona tu respuesta {questionIndex + 1} / {questionAmount}
+        <span>
+          Selecciona tu respuesta {questionIndex + 1} / {questionAmount}
+        </span>
+        <span>
+          Correctas {correctAnswers} | Incorrectas {incorrectAnswers}
+        </span>
       </h3>
 
       <div className="question__container">
@@ -36,15 +43,23 @@ export const Question = () => {
               <input
                 className="question__input"
                 type="radio"
-                id={`Pregunta_${number}_inciso_${i}`}
-                name={`Pregunta_${number}`}
-                value={`Pregunta_${number}_inciso_${i}`}
-                checked={selectedAnswers[number] === `Pregunta_${number}_inciso_${i}`}
-                onChange={(event) => handleAnswerChange(event, number)}
+                id={`Q_${number}_opt_${i}`}
+                name={`Q_${number}`}
+                value={`Q_${number}_opt_${i}`} // Use this value to check if is in the array
+                checked={selectedAnswers[number] === `Q_${number}_opt_${i}`}
+                onChange={(event) =>
+                  handleAnswerChange(event, number, correct_answer, answer)
+                }
               />
               <label
-                htmlFor={`Pregunta_${number}_inciso_${i}`}
-                className="question__label"
+                htmlFor={`Q_${number}_opt_${i}`}
+                className={`question__label ${
+                  selectedAnswers[number] === `Q_${number}_opt_${i}`
+                    ? isAnswerCorrect[number]
+                      ? 'question__label--correct'
+                      : 'question__label--incorrect'
+                    : ''
+                }`}
               >
                 <p className="question__p">{answer}</p>
               </label>

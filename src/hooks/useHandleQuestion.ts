@@ -6,16 +6,26 @@ export const useHandleQuestion = () => {
 
   const [questionIndex, setquestionIndex] = useState(0);
   const [questionAmount] = useState(questions.length);
+  const [isAnswerCorrect, setIsAnswerCorrect] = useState<boolean[]>([]);
 
   const [selectedAnswers, setSelectedAnswers] = useState<string[]>([]);
   const handleAnswerChange = (
     event: React.ChangeEvent<HTMLInputElement>,
     questionNumber: number,
+    correct_answer: string,
+    answer: string,
   ) => {
+    // Save the selected option
     const { value } = event.target;
     const newSelectedAnswers = [...selectedAnswers];
     newSelectedAnswers[questionNumber] = value;
     setSelectedAnswers(newSelectedAnswers);
+
+    // Check if the answer is correct
+    const isCorrect = correct_answer === answer;
+    const newAnswerCorrect = [...isAnswerCorrect];
+    newAnswerCorrect[questionNumber] = isCorrect;
+    setIsAnswerCorrect(newAnswerCorrect);
   };
 
   const handleNextQuestion = () => {
@@ -39,6 +49,9 @@ export const useHandleQuestion = () => {
     questionIndex,
     questionAmount,
     selectedAnswers,
+    isAnswerCorrect,
+    correctAnswers: isAnswerCorrect.filter((value) => value === true).length,
+    incorrectAnswers: isAnswerCorrect.filter((value) => value === false).length,
     // Methods
     handleAnswerChange,
     handleNextQuestion,

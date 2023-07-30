@@ -45,7 +45,7 @@ export const informatica2023: Props = {
       correct_answer: 'Ejecutar gráfico',
       answers: [
         'Ejecutar gráfico',
-        'gráfico de barras',
+        'Gráfico de barras',
         'Cuadro de control',
         'Ninguna de las mencionadas',
       ],
