@@ -928,13 +928,6 @@ export const informatica2023: Props = {
     {
       number: 92,
       question:
-        '¿Cuántas etapas hay en el modelo de mejora iterativa utilizado durante el mantenimiento del software?',
-      answers: ['Dos.', 'Tres.', 'Cuatro.', 'Cinco.'],
-      correct_answer: 'Cuatro.',
-    },
-    {
-      number: 93,
-      question:
         '¿Cuál de los siguientes no es un tipo de software de computadora que se pueda pensar?',
       answers: [
         'Fuera de la plataforma.',
@@ -945,7 +938,7 @@ export const informatica2023: Props = {
       correct_answer: 'Fuera de la plataforma con alteraciones.',
     },
     {
-      number: 94,
+      number: 93,
       question:
         '__________ son intentos de individuos por obtener información confidencial de usted al falsificar su identidad.',
       answers: [
@@ -957,7 +950,7 @@ export const informatica2023: Props = {
       correct_answer: 'Estafas de phishing.',
     },
     {
-      number: 95,
+      number: 94,
       question: 'El trabajo principal de la CPU es:',
       answers: [
         'Cumplir las instrucciones del programa.',
@@ -969,7 +962,7 @@ export const informatica2023: Props = {
         'Ambos Cumplir las instrucciones del programa y Procesar datos e información.',
     },
     {
-      number: 96,
+      number: 95,
       question: '¿Cuál de los siguientes es un ejemplo de un disco óptico?',
       answers: [
         'Discos magnéticos.',
@@ -980,21 +973,21 @@ export const informatica2023: Props = {
       correct_answer: 'Discos versátiles digitales.',
     },
     {
-      number: 97,
+      number: 96,
       question:
         '¿Cuál de los siguientes es un ejemplo de dispositivos de almacenamiento?',
       answers: ['Discos magnéticos.', 'Cintas.', 'DVDs.', 'Todos estos.'],
       correct_answer: 'Todos estos.',
     },
     {
-      number: 98,
+      number: 97,
       question:
         'Una persona que usó su experiencia para obtener acceso a las computadoras de otras personas para obtener información ilegalmente o hacer daño es una:',
       answers: ['Hacker.', 'Spammer.', 'Analista.', 'Programador.'],
       correct_answer: 'Hacker.',
     },
     {
-      number: 99,
+      number: 98,
       question:
         'Una forma popular de aprender acerca de las computadoras sin tener que ir al aula se llama:',
       answers: [
@@ -1006,7 +999,7 @@ export const informatica2023: Props = {
       correct_answer: 'E-learning.',
     },
     {
-      number: 100,
+      number: 99,
       question:
         '¿Cuál de los siguientes es un dispositivo de almacenamiento que utiliza discos magnéticos rígidos instalados permanentemente para almacenar datos / información?',
       answers: ['Disquete.', 'Disco duro.', 'Disco permanente.', 'Ninguno de estos.'],
