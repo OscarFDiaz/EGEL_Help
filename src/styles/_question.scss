@@ -26,6 +26,10 @@ $subtext: #a39fa2;
   @include media(768px) {
     width: 100%;
   }
+  @include media(425px) {
+    padding: 2rem 1rem;
+    border-radius: 1rem;
+  }
   &__answer {
     // Not needed
   }
@@ -33,6 +37,9 @@ $subtext: #a39fa2;
     // Question container
     @include flex(column, flex-start, center, stretch);
     gap: 1rem;
+    @include media(1366px) {
+      gap: 0.5rem;
+    }
   }
 
   &__buttons {
@@ -40,6 +47,10 @@ $subtext: #a39fa2;
     gap: 1rem;
     padding-top: 2rem;
     width: 100%;
+
+    @include media(1366px) {
+      padding-top: 1rem;
+    }
   }
   &__button {
     cursor: pointer;
@@ -93,7 +104,7 @@ $subtext: #a39fa2;
   }
   &__label {
     cursor: pointer;
-    @include flex(row, _, flex-start);
+    @include flex(row, center, flex-start);
     gap: 1rem;
     padding: 1rem;
 
@@ -112,7 +123,7 @@ $subtext: #a39fa2;
     color: $text;
   }
   &__question {
-    @include font(2rem, 600, normal);
+    @include font(1.7rem, 600, normal);
     color: $text;
     white-space: pre-line;
     transition: all 200ms linear;
@@ -133,22 +144,13 @@ $subtext: #a39fa2;
     @include media(425px) {
       font-size: 1.3rem;
     }
+    @include media(1366px) {
+      font-size: 1.3rem;
+    }
   }
   &__subtitle {
     @include font(0.8rem, 400, normal);
     color: $subtext;
     align-self: flex-start;
   }
-}
-
-::-webkit-scrollbar {
-  width: 8px;
-  height: 8px;
-  background: $subtext;
-  border-radius: 20px;
-}
-
-::-webkit-scrollbar-thumb {
-  border-radius: 20px;
-  background: $secondary;
 }
