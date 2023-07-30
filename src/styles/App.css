@@ -185,6 +185,7 @@ body {
 @media (max-width: 1024px) {
   .question {
     width: 70%;
+    height: 70vh;
   }
 }
 @media (max-width: 768px) {
