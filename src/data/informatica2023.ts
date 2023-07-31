@@ -1181,6 +1181,865 @@ export const informatica2023: Props = {
       question: '¿El paso final en el ciclo de vida del desarrollo de Sytem (SDLC)?',
       answers: ['Análisis', 'Operacional', 'Desarrollo', 'Diseño'],
       correct_answer: 'Operacional',
-    }, // TODO
+    },
+    {
+      number: 120,
+      question:
+        'La decisión de hacer o comprar está asociada con el paso _____ en el SDLC',
+      answers: [
+        'Identificación del problema / oportunidad',
+        'Diseño',
+        'Análisis',
+        'Desarrollo y Documentación',
+      ],
+      correct_answer: 'Diseño',
+    },
+    {
+      number: 121,
+      question:
+        'En la fase de Análisis, ocurre el desarrollo del _____, que es una declaración clara de las metas y objetivos del proyecto',
+      answers: [
+        'Documentación',
+        'Diagrama de flujo',
+        'Especificación del programa',
+        'Diseño',
+      ],
+      correct_answer: 'Especificación del programa',
+    },
+    {
+      number: 122,
+      question:
+        'La programación real del código de software se realiza durante el paso _____ en el SDLC',
+      answers: [
+        'Mantenimiento y Evaluación',
+        'Diseño',
+        'Análisis',
+        'Desarrollo y Documentación',
+      ],
+      correct_answer: 'Desarrollo y Documentación',
+    },
+    {
+      number: 123,
+      question:
+        'Las mejoras, actualizaciones y correcciones de errores se realizan durante el paso en el SDLC',
+      answers: [
+        'Mantenimiento y Evaluación',
+        'Identificación del problema / oportunidad',
+        'Diseño',
+        'Desarrollo y Documentación',
+      ],
+      correct_answer: 'Mantenimiento y Evaluación',
+    },
+    {
+      number: 124,
+      question: 'El _____ determina si el proyecto debe seguir adelante',
+      answers: [
+        'Evaluación de viabilidad',
+        'Identificación de oportunidad',
+        'Evaluación del sistema',
+        'Especificación del programa',
+      ],
+      correct_answer: 'Evaluación de viabilidad',
+    },
+    {
+      number: 125,
+      question:
+        'Los escritores técnicos generalmente proporcionan el _____ para el nuevo sistema',
+      answers: ['Programas', 'Red', 'Análisis', 'Documentación'],
+      correct_answer: 'Documentación',
+    },
+    {
+      number: 126,
+      question: '_____ diseñar e implementar estructuras de bases de datos',
+      answers: [
+        'Programadores',
+        'Gerentes de proyecto',
+        'Escritores técnicos',
+        'Administradores de bases de datos',
+      ],
+      correct_answer: 'Administradores de bases de datos',
+    },
+    {
+      number: 127,
+      question:
+        '_____ pasan la mayor parte de su tiempo en las etapas iniciales del SDLC, hablando con los usuarios finales, recopilando información, documentando sistemas y proponiendo soluciones',
+      answers: [
+        'Analistas de sistemas',
+        'Gerentes de proyecto',
+        'Ingenieros de redes',
+        'Administradores de la base de datos',
+      ],
+      correct_answer: 'Analistas de sistemas',
+    },
+    {
+      number: 128,
+      question:
+        '_____ administre el desarrollo del sistema, asigne personal, administre el presupuesto y los informes, y asegúrese de que se cumplan los plazos',
+      answers: [
+        'Gerentes de proyecto',
+        'Ingenieros de redes',
+        'Diseñadores gráficos',
+        'Analistas de sistemas',
+      ],
+      correct_answer: 'Gerentes de proyecto',
+    },
+    {
+      number: 129,
+      question:
+        '_____ es el proceso de traducir una tarea en una serie de comandos que una computadora utilizará para realizar esa tarea',
+      answers: [
+        'Diseño del proyecto',
+        'Instalación',
+        'Análisis de sistemas',
+        'Programación',
+      ],
+      correct_answer: 'Programación',
+    },
+    {
+      number: 130,
+      question: 'La depuración es:',
+      answers: [
+        'Creando el código del programa',
+        'Encontrar y corregir errores en el código del programa',
+        'Identificar la tarea a computarizar',
+        'Creando el algoritmo',
+      ],
+      correct_answer: 'Encontrar y corregir errores en el código del programa',
+    },
+    {
+      number: 131,
+      question:
+        'La traducción de la declaración del problema en una serie de pasos secuenciales que describen lo que el programa debe hacer se conoce como:',
+      answers: [
+        'La codificación',
+        'Depuración',
+        'Creando el algoritmo',
+        'Escribiendo la documentación',
+      ],
+      correct_answer: 'Creando el algoritmo',
+    },
+    {
+      number: 132,
+      question:
+        'La traducción del algoritmo a un lenguaje de programación ocurre en el paso _____ del PD LC',
+      answers: [
+        'Depuración',
+        'Codificación',
+        'Pruebas y documentación',
+        'Desarrollo de algoritmos',
+      ],
+      correct_answer: 'Codificación',
+    },
+    {
+      number: 133,
+      question: 'La declaración del problema debe incluir todos los siguientes EXCEPTO:',
+      answers: ['Entrada', 'Salida', 'Procesamiento', 'Almacenamiento'],
+      correct_answer: 'Almacenamiento',
+    },
+    {
+      number: 134,
+      question:
+        'La declaración del problema incluye el _____ , que enumera los números de entrada específicos que un programa esperaría normalmente que el usuario ingrese y valores de salida precisos que un programa perfecto devolvería para esos valores de entrada',
+      answers: [
+        'Plan de pruebas',
+        'Manejador de errores',
+        'Ciclo de salida a bolsa',
+        'Especificación de entrada-salida',
+      ],
+      correct_answer: 'Plan de pruebas',
+    },
+    {
+      number: 135,
+      question:
+        'El objetivo principal de la fase de determinación de requisitos del desarrollo del sistema de información es:',
+      answers: [
+        'Determinar si la información es necesaria para una organización',
+        'Determinar qué información necesita una organización',
+        'Determinar cómo se puede proporcionar la información que necesita una organización',
+        'Determinar cuándo se dará la información',
+      ],
+      correct_answer: 'Determinar qué información necesita una organización',
+    },
+    {
+      number: 136,
+      question:
+        'Los requisitos de información de una organización pueden ser determinados por:',
+      answers: [
+        'Entrevistar a los gerentes y usuarios y llegar a los requisitos basados en el consenso',
+        'Descubrir qué hacen organizaciones similares',
+        'Decirle a la organización lo que necesitan en función de su experiencia',
+        'Enviar un cuestionario a todos los empleados de la organización',
+      ],
+      correct_answer:
+        'Entrevistar a los gerentes y usuarios y llegar a los requisitos basados en el consenso',
+    },
+    {
+      number: 137,
+      question:
+        'Es necesario priorizar los requisitos de información de una organización en la fase de determinación de requisitos como:',
+      answers: [
+        'Siempre es bueno priorizar',
+        'Hay demandas conflictivas de los usuarios',
+        'Hay restricciones en los presupuestos, el tiempo disponible, los recursos humanos y los requisitos',
+        'Toda buena organización lo hace',
+      ],
+      correct_answer:
+        'Hay restricciones en los presupuestos, el tiempo disponible, los recursos humanos y los requisitos',
+    },
+    {
+      number: 138,
+      question: 'Se realiza la especificación del requisito',
+      answers: [
+        'Una vez determinados los requisitos',
+        'Antes de que se determinen los requerimientos',
+        'Simultáneamente con determinación de requerimientos',
+        'Independiente de la determinación de requerimientos',
+      ],
+      correct_answer: 'Una vez determinados los requisitos',
+    },
+    {
+      number: 139,
+      question:
+        'El código se desarrolla con las propiedades medibles de un elemento conocido',
+      answers: [
+        'Código de clasificación de grupo',
+        'Código de autocomprobación',
+        'Código de dígitos significativos',
+        'Código numérico',
+      ],
+      correct_answer: 'Código de dígitos significativos',
+    },
+    {
+      number: 140,
+      question:
+        'Es necesario consultar lo siguiente al elaborar la especificación del requisito:',
+      answers: [
+        'Solo altos directivos',
+        'Solo alta y media gerencia',
+        'Solo gerentes superiores, medios y operativos',
+        'Gerentes superiores, medios y operativos, y también todos los que usarán el sistema',
+      ],
+      correct_answer:
+        'Gerentes superiores, medios y operativos, y también todos los que usarán el sistema',
+    },
+    {
+      number: 141,
+      question:
+        'Para comprender el funcionamiento de una organización para la cual se está diseñando un sistema basado en computadora, un analista debe:',
+      answers: [
+        'Ver solo el trabajo actual y el flujo de documentos en la organización',
+        'Discutir solo con la gerencia de nivel medio y medio',
+        'Entrevistar a los gerentes principales, intermedios, de línea y también a los empleados que ingresarán los datos y usarán el sistema',
+        'Solo personal administrativo y de nivel medio que tenga una larga experiencia en la organización y que sea usuario del sistema',
+      ],
+      correct_answer:
+        'Entrevistar a los gerentes principales, intermedios, de línea y también a los empleados que ingresarán los datos y usarán el sistema',
+    },
+    {
+      number: 142,
+      question: 'Se realiza un estudio de factibilidad',
+      answers: [
+        'Después de los requisitos finales se elaboran las especificaciones',
+        'Durante el periodo en el que se elaboran las especificaciones de los requisitos',
+        'Antes de que se elaboren las especificaciones de los requisitos finales',
+        'En cualquier momento',
+      ],
+      correct_answer:
+        'Antes de que se elaboren las especificaciones de los requisitos finales',
+    },
+    {
+      number: 143,
+      question: 'El principal objetivo del estudio de viabilidad es:',
+      answers: [
+        'Evaluar si es posible cumplir con los requisitos especificados',
+        'Evaluar si es posible cumplir con los requisitos especificados sujetos a restricciones de presupuesto, recursos humanos y hardware',
+        'Asistir a la gerencia en la implementación del sistema deseado',
+        'Eliminar los cuellos de botella en la implementación del sistema deseado',
+      ],
+      correct_answer:
+        'Evaluar si es posible cumplir con los requisitos especificados sujetos a restricciones de presupuesto, recursos humanos y hardware',
+    },
+    {
+      number: 144,
+      question: 'Es necesario llevar a cabo un estudio de factibilidad como:',
+      answers: [
+        'La alta dirección no puede garantizar que un proyecto sea viable antes de llamar a un analista de sistemas',
+        'La alta dirección no está segura de lo que quieren del sistema',
+        'A pesar de que la alta gerencia está a favor del sistema, la tecnología puede no estar madura para su implementación',
+        'Todas las organizaciones lo hacen',
+      ],
+      correct_answer:
+        'A pesar de que la alta gerencia está a favor del sistema, la tecnología puede no estar madura para su implementación',
+    },
+    {
+      number: 145,
+      question:
+        'La tecnología que ayuda a las empresas a cambiar de negocio permitiéndoles usar nuevos métodos se denomina:',
+      answers: [
+        'Procesamiento de datos',
+        'Sistemas de información',
+        'Tecnologías de la información',
+        'Virtualización',
+      ],
+      correct_answer: 'Tecnologías de la información',
+    },
+    {
+      number: 146,
+      question:
+        '¿Cuál de los siguientes no es un ejemplo de una forma en que la tecnología está cambiando el negocio y su relación con los empleados?',
+      answers: [
+        'La tecnología reduce los residuos',
+        'La tecnología corta ciclos de desarrollo',
+        'La tecnología elimina capas de gestión',
+        'La tecnología está rompiendo barreras corporativas',
+      ],
+      correct_answer: 'La tecnología elimina capas de gestión',
+    },
+    {
+      number: 147,
+      question:
+        'Una red de la empresa, cerrada al acceso público, que utiliza tecnología de tipo Internet se llama:',
+      answers: ['Intranet', 'Internet', 'Extranet', 'Todas las anteriores'],
+      correct_answer: 'Intranet',
+    },
+    {
+      number: 148,
+      question:
+        'La utilidad de la información de gestión depende de ¿cuál de las siguientes características?',
+      answers: ['Calidad', 'Lo completo', 'Oportunidad', 'Todas las anteriores'],
+      correct_answer: 'Todas las anteriores',
+    },
+    {
+      number: 149,
+      question:
+        'El cambio más dinámico en tecnología empresarial en los últimos años es:',
+      answers: [
+        'La velocidad de las impresoras',
+        'El alejamiento de las computadoras centrales hacia los sistemas de red',
+        'El costo de las computadoras',
+        'Ninguna de las anteriores',
+      ],
+      correct_answer:
+        'El alejamiento de las computadoras centrales hacia los sistemas de red',
+    },
+    {
+      number: 150,
+      question: '¿Cuál de los siguientes no es un beneficio importante de las redes?',
+      answers: [
+        'Ahorrando tiempo y dinero',
+        'Proporcionando enlaces fáciles a través de fronteras funcionales',
+        'Permitiendo a los empleados ver información completa',
+        'Ninguna de las anteriores',
+      ],
+      correct_answer: 'Ninguna de las anteriores',
+    },
+    {
+      number: 151,
+      question:
+        'El programa de computadora que se usa para manejar cualquier cosa, desde una nota a un libro de varios capítulos, se llama a (n):',
+      answers: [
+        'Programa de base de datos',
+        'Hoja de cálculo',
+        'programa de contabilidad',
+        'Programa de procesamiento de textos',
+      ],
+      correct_answer: 'Programa de procesamiento de textos',
+    },
+    {
+      number: 152,
+      question:
+        'El Sr X quiere calcular el punto de equilibrio para un producto ¿Cuál de los siguientes programas usaría?',
+      answers: [
+        'Base de datos',
+        'Hoja de cálculo',
+        'Procesador de textos',
+        'Ninguna de las anteriores',
+      ],
+      correct_answer: 'Hoja de cálculo',
+    },
+    {
+      number: 153,
+      question:
+        'Los programas de computadora que hacen posible que diferentes marcas de computadoras se transfiera n datos entre sí se llaman:',
+      answers: [
+        'Software del centro de mensajes',
+        'Software de base de datos',
+        'Software de comunicación',
+        'Todas las anteriores',
+      ],
+      correct_answer: 'Software de comunicación',
+    },
+    {
+      number: 154,
+      question:
+        '¿Cuál de los siguientes no es un problema importante que surge de la creciente dependencia de la tecnología de la información?',
+      answers: [
+        'Cambios de recursos humanos',
+        'Rentabilidad',
+        'Amenazas de seguridad',
+        'Preocupaciones sobre la privacidad',
+      ],
+      correct_answer: 'Rentabilidad',
+    },
+    {
+      number: 155,
+      question:
+        'Según el libro de texto, algunos futuristas creen que en los primeros años del siglo XXI, tanto como el porcentaje de la fuerza laboral canadiense trabajará en casa',
+      answers: ['20', '40', '30', '50'],
+      correct_answer: '40',
+    },
+    {
+      number: 156,
+      question:
+        '¿Cuál de las siguientes carreras está ganando trabajadores debido al crecimiento de la tecnología de la información?',
+      answers: [
+        'Ingenieros informáticos',
+        'Operadores informáticos',
+        'Ingenieros de sistemas',
+        'Ingenieros informáticos e Ingenieros de sistemas',
+      ],
+      correct_answer: 'Ingenieros informáticos e Ingenieros de sistemas',
+    },
+    {
+      number: 157,
+      question:
+        '¿Cuál de las siguientes carreras están perdiendo trabajadores debido al crecimiento de la tecnología de la información?',
+      answers: [
+        'Operadores informáticos',
+        'Contadores',
+        'Ingenieros informáticos',
+        'Gente de ventas',
+      ],
+      correct_answer: 'Operadores informáticos',
+    },
+
+    {
+      number: 158,
+      question: '¿Cuál de las siguientes es una ventaja de teletrabajo?',
+      answers: [
+        'Implica menos tiempo de viaje',
+        'Permite a las empresas retener a empleados valiosos durante el embarazo',
+        'permite a hombres y mujeres quedarse en casa con niños pequeños',
+        'Todas las anteriores',
+      ],
+      correct_answer: 'Todas las anteriores',
+    },
+    {
+      number: 159,
+      question: '¿Cuál de los siguientes programas es gratuito?',
+      answers: ['Software de dominio público', 'Hojas de cálculo', 'Shareware', 'Todos'],
+      correct_answer: 'Software de dominio público',
+    },
+    {
+      number: 160,
+      question: '¿Cuál es el primer paso en el ciclo de vida del desarrollo de software?',
+      answers: [
+        'Análisis',
+        'Diseño',
+        'Identificación del problema / oportunidad',
+        'Desarrollo y documentación',
+      ],
+      correct_answer: 'Identificación del problema / oportunidad',
+    },
+    {
+      number: 161,
+      question: '¿Qué herramienta se usa para el diseño estructurado?',
+      answers: [
+        'Diagrama de flujo del programa',
+        'Carta de estructura',
+        'Diagrama de flujo de datos',
+        'Módulo',
+      ],
+      correct_answer: 'Carta de estructura',
+    },
+    {
+      number: 162,
+      question:
+        'Una instrucción paso a paso que se usa para resolver un problema se conoce como:',
+      answers: ['Estructura secuencial', 'Una lista', 'Un plan', 'Un algoritmo'],
+      correct_answer: 'Un algoritmo',
+    },
+    {
+      number: 163,
+      question:
+        'En la fase de Análisis, ocurre el desarrollo del _____, que es una declaración clara de las metas y objetivos del proyecto',
+      answers: [
+        'Documentación',
+        'Diagrama de flujo',
+        'Especificación del programa',
+        'Diseño',
+      ],
+      correct_answer: 'Especificación del programa',
+    },
+    {
+      number: 164,
+      question:
+        'La programación real del código de software se realiza durante el paso _____ en el SDLC',
+      answers: [
+        'Mantenimiento y evaluación',
+        'Diseño',
+        'Análisis',
+        'Desarrollo y documentación',
+      ],
+      correct_answer: 'Desarrollo y documentación',
+    },
+    {
+      number: 165,
+      question: '¿Quién diseña e implementa estructuras de bases de datos?',
+      answers: [
+        'Programadores',
+        'Gerentes de proyecto',
+        'Escritores técnicos',
+        'Administradores de bases de datos',
+      ],
+      correct_answer: 'Administradores de bases de datos',
+    },
+    {
+      number: 166,
+      question:
+        '_____ es el proceso de traducir una tarea en una serie de comandos que una computadora utilizará para realizar esa tarea',
+      answers: [
+        'Diseño del proyecto',
+        'Instalación',
+        'Análisis de sistemas',
+        'Programación',
+      ],
+      correct_answer: 'Programación',
+    },
+    {
+      number: 167,
+      question: 'La depuración es:',
+      answers: [
+        'Creando código de programa',
+        'Encontrar y corregir errores en el código del programa',
+        'Identificar la tarea a computarizar',
+        'Creando el algoritmo',
+      ],
+      correct_answer: 'Encontrar y corregir errores en el código del programa',
+    },
+    {
+      number: 168,
+      question: 'En la fase de diseño, ¿cuál es el área principal de preocupación?',
+      answers: ['Arquitectura', 'Datos', 'Interfaz', 'Todas las mencionadas'],
+      correct_answer: 'Todas las mencionadas',
+    },
+    {
+      number: 169,
+      question:
+        'La importancia del diseño del software se puede resumir en una sola palabra que es:',
+      answers: ['Eficiencia', 'Exactitud', 'Calidad', 'Complejidad'],
+      correct_answer: 'Calidad',
+    },
+    {
+      number: 170,
+      question:
+        '¿Cuál de los siguientes no es el objetivo principal en el modelo de análisis?',
+      answers: [
+        'Describiendo las quejas de los clientes',
+        'Establecer una base para la creación de un diseño de software',
+        'Definir un conjunto de requisitos que se pueden validar una vez que el software está construido',
+        'Ninguno de los mencionados',
+      ],
+      correct_answer: 'Ninguno de los mencionados',
+    },
+    {
+      number: 171,
+      question:
+        'Una descripción de cada función presentada en el DFD está contenida en un:',
+      answers: [
+        'Flujo de datos',
+        'Especificación del proceso',
+        'Especificación de control',
+        'Almacén de datos',
+      ],
+      correct_answer: 'Especificación del proceso',
+    },
+    {
+      number: 172,
+      question:
+        '¿Qué diagrama indica el comportamiento del sistema como consecuencia de eventos externos?',
+      answers: [
+        'Diagrama de flujo de datos',
+        'Diagrama de transición de estado',
+        'Diagrama de especificación de control',
+        'Diagrama de flujo de trabajo',
+      ],
+      correct_answer: 'Diagrama de transición de estado',
+    },
+    {
+      number: 173,
+      question: 'Un modelo de datos contiene:',
+      answers: ['Objeto de datos', 'Atributos', 'Relaciones', 'Todas las mencionadas'],
+      correct_answer: 'Todas las mencionadas',
+    },
+
+    {
+      number: 174,
+      question:
+        '_____ define las propiedades de un objeto de datos y adopta una de las tres características diferentes',
+      answers: [
+        'Objeto de datos',
+        'Atributos',
+        'Relaciones',
+        'Objeto de datos y atributos',
+      ],
+      correct_answer: 'Atributos',
+    },
+    {
+      number: 175,
+      question:
+        'El _____ de una relación es 0 si no hay una necesidad explícita de que ocurra la relación o si la relación es opcional',
+      answers: ['Modalidad', 'Cardinalidad', 'Entidad', 'Análisis estructurado'],
+      correct_answer: 'Modalidad',
+    },
+    {
+      number: 176,
+      question:
+        'Una _____ es una representación gráfica que representa el flujo de información y las transformaciones que se aplican a medida que los datos se mueven de entrada a salida',
+      answers: [
+        'Diagrama de flujo de datos',
+        'Diagrama de transición de estado',
+        'Especificación de control',
+        'Diagrama de flujo de trabajo',
+      ],
+      correct_answer: 'Diagrama de transición de estado',
+    },
+    {
+      number: 177,
+      question:
+        'Se produce una condición de datos cuando se pasan datos a un elemento de entrada seguido de un elemento de procesamiento y el resultado en la salida de control',
+      answers: ['Verdad', 'Falso'],
+      correct_answer: 'Verdad',
+    },
+    {
+      number: 178,
+      question:
+        'El permite al ingeniero de software desarrollar modelos del dominio de información y del dominio funcional al mismo tiempo:',
+      answers: [
+        'Diagrama de flujo de datos',
+        'Diagrama de transición de estado',
+        'Especificación de control',
+        'Diagrama de actividad',
+      ],
+      correct_answer: 'Diagrama de flujo de datos',
+    },
+    {
+      number: 179,
+      question:
+        'El _____ contiene un diagrama de transición de estado que es una especificación secuencial de comportamiento',
+      answers: [
+        'Diagrama de flujo de datos',
+        'Diagrama de transición de estado',
+        'Especificación de control',
+        'Diagrama de flujo de trabajo',
+      ],
+      correct_answer: 'Especificación de control',
+    },
+    {
+      number: 180,
+      question: '¿Cuál de los siguientes no es un modelo de proceso evolutivo?',
+      answers: [
+        'Modelo Espiral WINWIN',
+        'Modelo incremental',
+        'Modelo de desarrollo concurrente',
+        'Todas las mencionadas',
+      ],
+      correct_answer: 'Modelo incremental',
+    },
+    {
+      number: 181,
+      question:
+        'El modelo incremental es el resultado de una combinación de elementos, ¿de qué dos modelos?',
+      answers: [
+        'Construir y arreglar modelo y modelo de cascada',
+        'Modelo lineal y modelo RAD',
+        'Modelo lineal y modelo de prototipos',
+        'Modelo de cascada y modelo de RAD',
+      ],
+      correct_answer: 'Modelo lineal y modelo de prototipos',
+    },
+    {
+      number: 182,
+      question: '¿Cuál es la principal ventaja de usar el modelo incremental?',
+      answers: [
+        'El cliente puede responder a cada incremento',
+        'Más fácil de probar y depurar',
+        'Se utiliza cuando es necesario llevar un producto al mercado antes de tiempo',
+        'Más fácil de probar y depurar Se utiliza cuando existe la necesidad de llevar un producto al mercado antes de tiempo',
+      ],
+      correct_answer:
+        'Más fácil de probar y depurar Se utiliza cuando existe la necesidad de llevar un producto al mercado antes de tiempo',
+    },
+    {
+      number: 183,
+      question: 'El modelo espiral fue propuesto originalmente por:',
+      answers: ['IBM', 'Barry Boehm', 'Pressman', 'Royce'],
+      correct_answer: 'Barry Boehm',
+    },
+    {
+      number: 184,
+      question: 'El modelo en espiral tiene dos dimensiones: _____ y _____',
+      answers: [
+        'Diagonal, angular',
+        'Radial, perpendicular',
+        'Radial, angular',
+        'Diagonal, perpendicular',
+      ],
+      correct_answer: 'Radial, angular',
+    },
+    {
+      number: 185,
+      question: '¿En qué se diferencia WINWIN Spiral Model de Spiral Model?',
+      answers: [
+        'Define las tareas requeridas para definir recursos, líneas de tiempo y otra información relacionada con el proyecto',
+        'Define un conjunto de actividades de negociación al comienzo de cada paso alrededor de la espiral',
+        'Define tareas requeridas para evaluar tanto riesgos técnicos como de gestión',
+        'Define las tareas necesarias para construir, probar, instalar y proporcionar soporte al usuario',
+      ],
+      correct_answer:
+        'Define un conjunto de actividades de negociación al comienzo de cada paso alrededor de la espiral',
+    },
+    {
+      number: 186,
+      question: 'Identificar la desventaja del modelo espiral',
+      answers: [
+        'No funciona bien para proyectos más pequeños',
+        'Gran cantidad de análisis de riesgo',
+        'Fuerte aprobación y control de documentación',
+        'La funcionalidad adicional se puede agregar en una fecha posterior',
+      ],
+      correct_answer: 'No funciona bien para proyectos más pequeños',
+    },
+    {
+      number: 187,
+      question: 'Spiral Model tiene la participación del usuario en todas sus fases',
+      answers: ['Verdad', 'Falso'],
+      correct_answer: 'Falso',
+    },
+    {
+      number: 188,
+      question: '¿En qué se diferencia el modelo incremental del modelo espiral?',
+      answers: [
+        'El progreso se puede medir para el modelo incremental',
+        'Los requisitos cambiantes se pueden acomodar en el modelo incremental',
+        'Los usuarios pueden ver el sistema temprano en el modelo incremental',
+        'Todas las mencionadas',
+      ],
+      correct_answer: 'El progreso se puede medir para el modelo incremental',
+    },
+    {
+      number: 189,
+      question:
+        'Si tuviera que crear aplicaciones cliente / servidor, ¿qué modelo elegiría?',
+      answers: [
+        'Modelo Espiral WINWIN',
+        'Modelo en espiral',
+        'Modelo concurrente',
+        'Modelo incremental',
+      ],
+      correct_answer: 'Modelo concurrente',
+    },
+    {
+      number: 190,
+      question:
+        'El Lenguaje de modelado unificado (UML) se ha convertido en un estándar efectivo para el modelado de software ¿Cuántas notaciones diferentes tiene?',
+      answers: ['Tres', 'Cuatro', 'Seis', 'Nueve'],
+      correct_answer: 'Nueve',
+    },
+    {
+      number: 191,
+      question:
+        '¿Qué modelo en el modelado del sistema representa el comportamiento dinámico del sistema?',
+      answers: [
+        'Modelo de contexto',
+        'Modelo de comportamiento',
+        'Modelo de datos',
+        'Modelo de objeto',
+      ],
+      correct_answer: 'Modelo de comportamiento',
+    },
+    {
+      number: 192,
+      question:
+        '¿Qué modelo en el modelado de sistemas representa la naturaleza estática del sistema?',
+      answers: [
+        'Modelo de comportamiento',
+        'Modelo de contexto',
+        'Modelo de datos',
+        'Modelo estructural',
+      ],
+      correct_answer: 'Modelo estructural',
+    },
+    {
+      number: 193,
+      question:
+        'Qué perspectiva en el modelado del sistema muestra el sistema o la arquitectura de datos',
+      answers: [
+        'Perspectiva estructural',
+        'Perspectiva de comportamiento',
+        'perspectiva externa',
+        'Todas las mencionadas',
+      ],
+      correct_answer: 'Perspectiva estructural',
+    },
+    {
+      number: 194,
+      question:
+        'Los diagramas de actividad se utilizan para modelar el procesamiento de datos',
+      answers: ['Verdad', 'Falso'],
+      correct_answer: 'Verdad',
+    },
+    {
+      number: 195,
+      question:
+        'La ingeniería basada en modelos es solo un concepto teórico No se puede convertir en un código de trabajo / ejecutable',
+      answers: ['Verdad', 'Falso'],
+      correct_answer: 'Falso',
+    },
+    {
+      number: 196,
+      question: 'La cohesión es una indicación cualitativa del grado en que un módulo:',
+      answers: [
+        'Se puede escribir de forma más compacta',
+        'Se enfoca en una sola cosa',
+        'Es capaz de completar su función de manera oportuna',
+        'Está conectado a otros módulos y al mundo exterior',
+      ],
+      correct_answer: 'Se enfoca en una sola cosa',
+    },
+    {
+      number: 197,
+      question:
+        'El acoplamiento es una indicación cualitativa del grado en que un módulo:',
+      answers: [
+        'Se puede escribir de forma más compacta',
+        'Se enfoca en una sola cosa',
+        'Es capaz de completar su función de manera oportuna',
+        'Está conectado a otros módulos y al mundo exterior',
+      ],
+      correct_answer: 'Está conectado a otros módulos y al mundo exterior',
+    },
+    {
+      number: 198,
+      question: 'SCM significa:',
+      answers: [
+        'Gestión de control de software',
+        'Gestión de la configuración del software',
+        'Gestión del concepto de software',
+        'Ninguna de las mencionadas',
+      ],
+      correct_answer: 'Gestión de la configuración del software',
+    },
+    {
+      number: 199,
+      question: 'Cuando el código se pone a disposición de otros, va en un / a :',
+      answers: [
+        'Disco duro',
+        'Biblioteca de acceso controlado',
+        'Servidores',
+        'Control de acceso',
+      ],
+      correct_answer: 'Biblioteca de acceso controlado',
+    },
   ],
 };
