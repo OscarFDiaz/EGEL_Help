@@ -94,6 +94,15 @@ export const useHandleQuestion = () => {
     setSelectedAnswers([]);
   };
 
+  const handleReportQuestion = () => {
+    Swal.fire({
+      title: 'Reportar pregunta',
+      text: `Pregunta a reportar: ${questionIndex + 1}`,
+      icon: 'success',
+      confirmButtonText: 'Reportar',
+    });
+  };
+
   return {
     // Data
     questionIndex,
@@ -104,8 +113,9 @@ export const useHandleQuestion = () => {
     incorrectAnswers: isAnswerCorrect.filter((value) => value === false).length,
     // Methods
     handleAnswerChange,
+    handleFinishQuestion,
     handleNextQuestion,
     handlePrevQuestion,
-    handleFinishQuestion,
+    handleReportQuestion,
   };
 };

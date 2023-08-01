@@ -14,9 +14,10 @@ export const Question = () => {
     correctAnswers,
     incorrectAnswers,
     handleAnswerChange,
+    handleFinishQuestion,
     handleNextQuestion,
     handlePrevQuestion,
-    handleFinishQuestion,
+    handleReportQuestion,
   } = useHandleQuestion();
 
   const { answers, question, number, correct_answer } = questions[questionIndex];
@@ -73,7 +74,7 @@ export const Question = () => {
       <div className="question__buttons">
         <button
           className="question__button question__button--report"
-          onClick={handlePrevQuestion}
+          onClick={handleReportQuestion}
         >
           <span className="question__span">Reportar pregunta</span>
           <ReportQuestion />
