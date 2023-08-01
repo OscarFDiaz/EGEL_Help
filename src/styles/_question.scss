@@ -127,9 +127,11 @@ $subtext: #a39fa2;
       border: 2px solid #e94c3d;
     }
 
-    &:hover {
-      background-color: rgba($color: $secondary, $alpha: 0.3);
-      border-color: $secondary;
+    @media (hover: hover) {
+      &:hover {
+        background-color: rgba($color: $secondary, $alpha: 0.3);
+        border-color: $secondary;
+      }
     }
   }
   &__p {

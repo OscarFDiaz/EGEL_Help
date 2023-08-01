@@ -22,7 +22,7 @@ export const Question = () => {
     <div className="question">
       <h3 className="question__subtitle">
         <span>
-          Selecciona tu respuesta {questionIndex + 1} / {questionAmount}
+          Pregunta {questionIndex + 1} / {questionAmount}
         </span>
         <span>
           Correctas {correctAnswers} | Incorrectas {incorrectAnswers}

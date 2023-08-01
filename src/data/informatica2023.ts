@@ -3521,7 +3521,7 @@ export const informatica2023: Props = {
     {
       number: 350,
       question:
-        'El término “ _____ ” describe una empresa planificada que produce un nuevo sistema de información.',
+        'El término “ _____ ” describe una empresa planificada que produce un nuevo sistema de información',
       answers: [
         'Proyecto de desarrollo de sistemas',
         'Fase',
@@ -3533,7 +3533,7 @@ export const informatica2023: Props = {
     {
       number: 351,
       question:
-        'La mayoría de los sistemas de información nuevos deben comunicarse con otros sistemas existentes, por lo que el diseño del método y los detalles de estos enlaces de comunicación deben definirse con precisión. Estos se llaman:',
+        'La mayoría de los sistemas de información nuevos deben comunicarse con otros sistemas existentes, por lo que el diseño del método y los detalles de estos enlaces de comunicación deben definirse con precisión Estos se llaman:',
       answers: [
         'Modelos',
         'Interfaces del sistema',
@@ -3545,7 +3545,7 @@ export const informatica2023: Props = {
     {
       number: 352,
       question:
-        'El término " _____ " significa que las actividades laborales se realizan una vez, luego otra vez, y una vez más.',
+        'El término " _____ " significa que las actividades laborales se realizan una vez, luego otra vez, y una vez más',
       answers: [
         'Programación eXtreme (XP)',
         'Iteración',
@@ -3557,7 +3557,7 @@ export const informatica2023: Props = {
     {
       number: 353,
       question:
-        'El término _____ se refiere a un enfoque que completa partes de un sistema en una o más iteraciones y las pone en funcionamiento para los usuarios.',
+        'El término _____ se refiere a un enfoque que completa partes de un sistema en una o más iteraciones y las pone en funcionamiento para los usuarios',
       answers: [
         'Desarrollo incremental',
         'Ingeniería de la información (IE)',
@@ -3569,20 +3569,20 @@ export const informatica2023: Props = {
     {
       number: 354,
       question:
-        'Una/un _____ en desarrollo de sistemas es una colección de pautas que ayudan a un analista a completar una tarea o actividad de desarrollo de sistemas.',
+        'Una/un _____ en desarrollo de sistemas es una colección de pautas que ayudan a un analista a completar una tarea o actividad de desarrollo de sistemas',
       answers: ['Iteración', 'Modelo', 'Técnica', 'Herramienta'],
       correct_answer: 'Técnica',
     },
     {
       number: 355,
-      question: 'Un programa _____ es uno que tiene un principio y un final.',
+      question: 'Un programa _____ es uno que tiene un principio y un final',
       answers: ['Iterativo', 'Estructurado', 'Incremental', 'Orientado a objetos'],
       correct_answer: 'Estructurado',
     },
     {
       number: 356,
       question:
-        'La programación _____ divide los programas más complejos en una jerarquía de módulos de programa.',
+        'La programación _____ divide los programas más complejos en una jerarquía de módulos de programa',
       answers: [
         'Incremental',
         'Iterativa',
@@ -3606,13 +3606,13 @@ export const informatica2023: Props = {
     {
       number: 358,
       question:
-        'Un (a) _____ es una cosa en el sistema informático que es capaz de responder a los mensajes.',
+        'Un (a) _____ es una cosa en el sistema informático que es capaz de responder a los mensajes',
       answers: ['Diagrama de entidad-relación (ERD)', 'Modelo', 'Herramienta', 'Objeto'],
       correct_answer: 'Objeto',
     },
     {
       number: 359,
-      question: 'El/la _____ es un componente crítico de cualquier sistema nuevo.',
+      question: 'El/la _____ es un componente crítico de cualquier sistema nuevo',
       answers: [
         'Aplicación de gestión de proyectos',
         'Interfaz de usuario',
@@ -3624,14 +3624,14 @@ export const informatica2023: Props = {
     {
       number: 360,
       question:
-        'El objetivo de la fase _____ es mantener el sistema funcionando productivamente durante los años posteriores a su instalación inicial.',
+        'El objetivo de la fase _____ es mantener el sistema funcionando productivamente durante los años posteriores a su instalación inicial',
       answers: ['Apoyo', 'Diseño', 'Planificación', 'Análisis'],
       correct_answer: 'Apoyo',
     },
     {
       number: 361,
       question:
-        'La técnica _____ fue desarrollada para proporcionar algunas pautas para decidir cuál debería ser el conjunto de programas, qué debería lograr cada programa y cómo debería organizarse el programa en una jerarquía.',
+        'La técnica _____ fue desarrollada para proporcionar algunas pautas para decidir cuál debería ser el conjunto de programas, qué debería lograr cada programa y cómo debería organizarse el programa en una jerarquía',
       answers: [
         'Programación extrema (XP)',
         'Diseño estructurado',
@@ -3643,21 +3643,21 @@ export const informatica2023: Props = {
     {
       number: 362,
       question:
-        'Un concepto clave en el enfoque del modelo _____ es el enfoque en el riesgo.',
+        'Un concepto clave en el enfoque del modelo _____ es el enfoque en el riesgo',
       answers: ['Espiral', 'Programación extrema (XP)', 'Riesgo', 'Ágil'],
       correct_answer: 'Espiral',
     },
     {
       number: 363,
       question:
-        'Un enfoque _____ al SDLC se utiliza cuando los requisitos exactos de un sistema o las necesidades de los usuarios no se entienden bien.',
+        'Un enfoque _____ al SDLC se utiliza cuando los requisitos exactos de un sistema o las necesidades de los usuarios no se entienden bien',
       answers: ['Predictivo', 'Persistente', 'Incremental', 'Adaptado'],
       correct_answer: 'Adaptado',
     },
     {
       number: 364,
       question:
-        'El enfoque _____ es un enfoque de SDLC que asume que las diversas fases de un proyecto se pueden completar de manera totalmente secuencial.',
+        'El enfoque _____ es un enfoque de SDLC que asume que las diversas fases de un proyecto se pueden completar de manera totalmente secuencial',
       answers: ['Cascada', 'Artefacto', 'Prototipo', 'Modelo espiral'],
       correct_answer: 'Cascada',
     },
@@ -3682,7 +3682,7 @@ export const informatica2023: Props = {
     {
       number: 367,
       question:
-        'La gestión del proyecto implica la planificación, el monitoreo y el control de las personas, los procesos y los eventos que ocurren a medida que el software evoluciona desde un concepto preliminar hasta una implementación operativa.',
+        'La gestión del proyecto implica la planificación, el monitoreo y el control de las personas, los procesos y los eventos que ocurren a medida que el software evoluciona desde un concepto preliminar hasta una implementación operativa',
       answers: ['Verdad', 'Falso'],
       correct_answer: 'Verdad',
     },
@@ -3697,12 +3697,12 @@ export const informatica2023: Props = {
       number: 369,
       question: 'PM-CMM significa:',
       answers: [
-        'Modelo de madurez de la capacidad de gestión de personas.',
-        'Modelo de madurez de la capacidad de gestión de procesos.',
+        'Modelo de madurez de la capacidad de gestión de personas',
+        'Modelo de madurez de la capacidad de gestión de procesos',
         'Modelo de madurez de capacidad de gestión de producto',
-        'Modelo de madurez de la capacidad de gestión de proyectos.',
+        'Modelo de madurez de la capacidad de gestión de proyectos',
       ],
-      correct_answer: 'Modelo de madurez de la capacidad de gestión de personas.',
+      correct_answer: 'Modelo de madurez de la capacidad de gestión de personas',
     },
     {
       number: 370,
@@ -3718,7 +3718,7 @@ export const informatica2023: Props = {
     {
       number: 371,
       question:
-        'Un software _____ proporciona el marco a partir del cual se puede establecer un plan integral para el desarrollo de software.',
+        'Un software _____ proporciona el marco a partir del cual se puede establecer un plan integral para el desarrollo de software',
       answers: ['Personas', 'Producto', 'Proceso', 'Ninguno de los mencionados'],
       correct_answer: 'Proceso',
     },
@@ -3803,7 +3803,7 @@ export const informatica2023: Props = {
     {
       number: 379,
       question:
-        'Los datos empíricos que soportan la mayoría de los modelos de estimación se derivan de una amplia muestra de proyectos.',
+        'Los datos empíricos que soportan la mayoría de los modelos de estimación se derivan de una amplia muestra de proyectos',
       answers: ['Verdad', 'Falso'],
       correct_answer: 'Falso',
     },
@@ -3811,12 +3811,12 @@ export const informatica2023: Props = {
       number: 380,
       question: 'COCOMO significa:',
       answers: [
-        'Modelo de coste constructivo.',
-        'Modelo de coste integral.',
-        'Modelo constructivo de estimación de costos.',
-        'Modelo completo de estimación de costos.',
+        'Modelo de coste constructivo',
+        'Modelo de coste integral',
+        'Modelo constructivo de estimación de costos',
+        'Modelo completo de estimación de costos',
       ],
-      correct_answer: 'Modelo de coste constructivo.',
+      correct_answer: 'Modelo de coste constructivo',
     },
     {
       number: 381,
@@ -3824,23 +3824,23 @@ export const informatica2023: Props = {
         '¿Qué versión de COCOMO establece que una vez que se han estabilizado los requisitos, se ha establecido la arquitectura básica del software?',
       answers: [
         'Modelo de etapa de diseño temprano',
-        'Modelo post-arquitectura-escenario.',
-        'Modelo de composición de la aplicación.',
-        'Todas las mencionadas.',
+        'Modelo post-arquitectura-escenario',
+        'Modelo de composición de la aplicación',
+        'Todas las mencionadas',
       ],
       correct_answer: 'Modelo de etapa de diseño temprano',
     },
     {
       number: 382,
       question:
-        'Qué modelo se usó durante las primeras etapas de la ingeniería de software, cuando la creación de un prototipo de las interfaces de usuario, la consideración del software y la interacción del sistema, la evaluación del rendimiento y la evaluación de la madurez de la tecnología fueron primordiales.',
+        'Qué modelo se usó durante las primeras etapas de la ingeniería de software, cuando la creación de un prototipo de las interfaces de usuario, la consideración del software y la interacción del sistema, la evaluación del rendimiento y la evaluación de la madurez de la tecnología fueron primordiales',
       answers: [
         'Modelo de etapa de diseño temprano',
-        'Modelo post-arquitectura-escenario.',
-        'Modelo de composición de la aplicación.',
-        'Todas las mencionadas.',
+        'Modelo post-arquitectura-escenario',
+        'Modelo de composición de la aplicación',
+        'Todas las mencionadas',
       ],
-      correct_answer: 'Modelo de composición de la aplicación.',
+      correct_answer: 'Modelo de composición de la aplicación',
     },
     {
       number: 383,
@@ -3856,8 +3856,8 @@ export const informatica2023: Props = {
     {
       number: 384,
       question: 'COCOMO fue desarrollado inicialmente por:',
-      answers: ['B. Beizer', 'Rajiv Gupta', 'B. W. Bohem', 'Gregg Rothermal'],
-      correct_answer: 'B. W. Bohem',
+      answers: ['B Beizer', 'Rajiv Gupta', 'B W Bohem', 'Gregg Rothermal'],
+      correct_answer: 'B W Bohem',
     },
     {
       number: 385,
@@ -3881,19 +3881,19 @@ export const informatica2023: Props = {
       question: '¿Cuál no es una etapa de COCOMO-II?',
       answers: [
         'Modelo de estimación de diseño temprano',
-        'Modelo de estimación de la composición de la aplicación.',
-        'Modelo de estimación integral de costos.',
-        'Modelo de estimación post-arquitectura.',
+        'Modelo de estimación de la composición de la aplicación',
+        'Modelo de estimación integral de costos',
+        'Modelo de estimación post-arquitectura',
       ],
       correct_answer: 'Modelo de estimación de diseño temprano',
     },
     {
       number: 388,
-      question: 'Herramienta utilizada para asegurar el juicio experto.',
+      question: 'Herramienta utilizada para asegurar el juicio experto',
       answers: [
         'Revisión por pares',
         'Técnica Delphi',
-        'Técnica de valor esperado.',
+        'Técnica de valor esperado',
         'Estructura de desglose del trabajo (WBS)',
       ],
       correct_answer: 'Técnica Delphi',
@@ -3904,7 +3904,7 @@ export const informatica2023: Props = {
         '¿Qué debe hacer el gerente del proyecto para garantizar que se incluya todo el trabajo en el proyecto?',
       answers: [
         'Crear un plan de contingencia',
-        'Crear un plan de gestión de riesgos.',
+        'Crear un plan de gestión de riesgos',
         'Crear una WBS',
         'Crear una declaración de alcance',
       ],
@@ -3925,30 +3925,30 @@ export const informatica2023: Props = {
         'Verificación del alcance',
         'Completar una declaración de alcance',
         'Definición del alcance',
-        'Plan de gestión de riesgos.',
+        'Plan de gestión de riesgos',
       ],
       correct_answer: 'Completar una declaración de alcance',
     },
     {
       number: 392,
       question:
-        'Una organización está certificada según un estándar medioambiental estricto y la utiliza como diferenciador clave con sus competidores. Método alternativo está disponible pero implica mucho riesgo. ¿Qué debe hacer el equipo del proyecto?',
+        'Una organización está certificada según un estándar medioambiental estricto y la utiliza como diferenciador clave con sus competidores Método alternativo está disponible pero implica mucho riesgo ¿Qué debe hacer el equipo del proyecto?',
       answers: [
         'Soltar el enfoque alternativo',
         'Elaborar un plan de mitigación',
-        'Procurar un seguro contra el riesgo.',
-        'Planear todas las precauciones para evitar el riesgo.',
+        'Procurar un seguro contra el riesgo',
+        'Planear todas las precauciones para evitar el riesgo',
       ],
       correct_answer: 'Soltar el enfoque alternativo',
     },
     {
       number: 393,
       question:
-        'Ese es el objetivo del gerente de proyecto detrás del estudio de los procesos de trabajo en un proyecto.',
+        'Ese es el objetivo del gerente de proyecto detrás del estudio de los procesos de trabajo en un proyecto',
       answers: [
         'Control de calidad',
-        'Planificación de la calidad.',
-        'Comprobar la adherencia a los procesos.',
+        'Planificación de la calidad',
+        'Comprobar la adherencia a los procesos',
         'Aseguramiento de la calidad',
       ],
       correct_answer: 'Aseguramiento de la calidad',
@@ -3958,16 +3958,16 @@ export const informatica2023: Props = {
       question:
         '¿Cuál de las siguientes NO es una entrada para la ejecución del plan del proyecto?',
       answers: [
-        'Sistema de autorización de trabajo.',
+        'Sistema de autorización de trabajo',
         'Plan del proyecto',
         'Acción correctiva',
-        'Acción preventiva.',
+        'Acción preventiva',
       ],
-      correct_answer: 'Sistema de autorización de trabajo.',
+      correct_answer: 'Sistema de autorización de trabajo',
     },
     {
       number: 395,
-      question: 'El modelo sirve como base para la creación de _____ para el software.',
+      question: 'El modelo sirve como base para la creación de _____ para el software',
       answers: ['Diseño', 'Mantenimiento', 'Pruebas', 'Especificaciones'],
       correct_answer: 'Especificaciones',
     },
@@ -3975,24 +3975,24 @@ export const informatica2023: Props = {
       number: 396,
       question:
         'Antes de que los requisitos puedan analizarse, modelarse o especificarse, se deben reunir a través de un/una:',
-      answers: ['Proceso de elicitación.', 'Entrevista', 'Reunión', 'Ninguno de dado'],
-      correct_answer: 'Proceso de elicitación.',
+      answers: ['Proceso de elicitación', 'Entrevista', 'Reunión', 'Ninguno de dado'],
+      correct_answer: 'Proceso de elicitación',
     },
     {
       number: 397, // 399
       question: 'La identificación insuficiente es una:',
       answers: [
-        'Problemas relacionados con la tecnología.',
-        'Problemas relacionados con el producto.',
-        'Problemas relacionados con el proceso.',
-        'Problemas relacionados con las personas.',
+        'Problemas relacionados con la tecnología',
+        'Problemas relacionados con el producto',
+        'Problemas relacionados con el proceso',
+        'Problemas relacionados con las personas',
       ],
-      correct_answer: 'Problemas relacionados con el proceso.',
+      correct_answer: 'Problemas relacionados con el proceso',
     },
     {
       number: 398, //410
       question:
-        'Usted puede usar la Matriz de Trazabilidad de Artículos para identificar _____ al final de cada fase.',
+        'Usted puede usar la Matriz de Trazabilidad de Artículos para identificar _____ al final de cada fase',
       answers: ['SCIs', 'SCM', 'Diseño', 'Construcción'],
       correct_answer: 'SCIs',
     },
@@ -4001,24 +4001,24 @@ export const informatica2023: Props = {
       question:
         'La mayoría de los gerentes de proyectos de software practican muchas técnicas de administración de dudosa autenticidad que se llaman:',
       answers: [
-        'Herramientas de gestión de proyectos.',
-        'Mitos de gestión de proyectos.',
-        'Reglas de gestión de proyectos.',
-        'Fundamentos de gestión de proyectos.',
+        'Herramientas de gestión de proyectos',
+        'Mitos de gestión de proyectos',
+        'Reglas de gestión de proyectos',
+        'Fundamentos de gestión de proyectos',
       ],
-      correct_answer: 'Mitos de gestión de proyectos.',
+      correct_answer: 'Mitos de gestión de proyectos',
     },
     {
       //TODO
       number: 400,
       question: 'El alcance definido es un:',
       answers: [
-        'Problemas relacionados con la tecnología.',
-        'Problemas relacionados con el producto.',
-        'Problemas relacionados con el proceso.',
-        'Problemas relacionados con las personas.',
+        'Problemas relacionados con la tecnología',
+        'Problemas relacionados con el producto',
+        'Problemas relacionados con el proceso',
+        'Problemas relacionados con las personas',
       ],
-      correct_answer: 'Problemas relacionados con el producto.',
+      correct_answer: 'Problemas relacionados con el producto',
     },
     {
       number: 401,
@@ -4035,7 +4035,7 @@ export const informatica2023: Props = {
     {
       number: 403,
       question:
-        'El control de versiones combina _____ para administrar diferentes versiones de objetos de configuración que se crean durante el desarrollo de productos de software.',
+        'El control de versiones combina _____ para administrar diferentes versiones de objetos de configuración que se crean durante el desarrollo de productos de software',
       answers: [
         'Procedimiento',
         'Herramientas',
@@ -4047,14 +4047,14 @@ export const informatica2023: Props = {
     {
       number: 404,
       question:
-        'Muchos proyectos de software se desvían del alcance original debido a la naturaleza del producto de software o. La tecnología utilizada, se produce en:',
+        'Muchos proyectos de software se desvían del alcance original debido a la naturaleza del producto de software o La tecnología utilizada, se produce en:',
       answers: [
         'El alcance del producto cambió hacia el final del ciclo de vida del proyecto',
-        'Desarrollo de software orientado a la investigación.',
+        'Desarrollo de software orientado a la investigación',
         'Alcance definido',
         'Usuarios difusos',
       ],
-      correct_answer: 'Desarrollo de software orientado a la investigación.',
+      correct_answer: 'Desarrollo de software orientado a la investigación',
     },
     {
       number: 405,
@@ -4072,8 +4072,8 @@ export const informatica2023: Props = {
       number: 406,
       question:
         'Antes de que los requisitos puedan analizarse, modelarse o especificarse, se deben reunir a través de un/una:',
-      answers: ['Proceso de elicitación.', 'Entrevista', 'Reunión', 'Ninguno de dado'],
-      correct_answer: 'Proceso de elicitación.',
+      answers: ['Proceso de elicitación', 'Entrevista', 'Reunión', 'Ninguno de dado'],
+      correct_answer: 'Proceso de elicitación',
     },
   ],
 };
