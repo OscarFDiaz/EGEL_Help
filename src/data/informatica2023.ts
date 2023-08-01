@@ -2041,5 +2041,924 @@ export const informatica2023: Props = {
       ],
       correct_answer: 'Biblioteca de acceso controlado',
     },
+    {
+      number: 200,
+      question:
+        '¿Cuál de las siguientes no es una fase principal en el Proceso de administración de la configuración (CM)?',
+      answers: [
+        'Planificación de CM',
+        'Ejecutando el proceso CM',
+        'Auditorias de MC',
+        'Ninguna de las mencionadas',
+      ],
+      correct_answer: 'Ninguna de las mencionadas',
+    },
+    {
+      number: 201,
+      question:
+        'CM se trata de administrar los diferentes artículos en el producto y los cambios en ellos',
+      answers: ['Verdad', 'Falso'],
+      correct_answer: 'Verdad',
+    },
+    {
+      number: 202,
+      question:
+        '¿Qué permite que diferentes proyectos utilicen los mismos archivos de origen al mismo tiempo?',
+      answers: [
+        'Control de versiones',
+        'Control de acceso',
+        'Proceso CM',
+        'Control de versiones y control de acceso',
+      ],
+      correct_answer: 'Control de versiones',
+    },
+    {
+      number: 203,
+      question: '¿Cuál de los siguientes no es un proceso de gestión de cambios?',
+      answers: [
+        'Registrar los cambios',
+        'Estimar impacto en esfuerzo y cronograma',
+        'Revisar el impacto con los grupos de interés',
+        'Ninguna de las mencionadas',
+      ],
+      correct_answer: 'Ninguna de las mencionadas',
+    },
+    {
+      number: 204,
+      question:
+        'La administración de la configuración (CM) es necesaria para entregar el producto al cliente',
+      answers: ['Verdad', 'Falso'],
+      correct_answer: 'Verdad',
+    },
+    {
+      number: 205,
+      question:
+        '¿Cuál es uno o más elementos de configuración de software que se han revisado y acordado formalmente y que sirven como base para un mayor desarrollo?',
+      answers: ['Línea de base', 'Cambios acumulativos', 'CM', 'Control de cambio'],
+      correct_answer: 'Línea de base',
+    },
+    {
+      number: 206,
+      question: '¿Cómo se verifican las líneas de base?',
+      answers: [
+        'por opiniones',
+        'Por inspecciones',
+        'A prueba de código',
+        'Todas las mencionadas',
+      ],
+      correct_answer: 'A prueba de código',
+    },
+    {
+      number: 207,
+      question: '¿Cuál de los siguientes es un ejemplo de elementos de configuración?',
+      answers: [
+        'Procedimientos de SCM',
+        'Código fuente',
+        'Descripciones de diseño de software',
+        'Todas las mencionadas',
+      ],
+      correct_answer: 'Todas las mencionadas',
+    },
+    {
+      number: 208,
+      question: 'SCM controla solo los productos del proceso de desarrollo',
+      answers: ['Verdad', 'Falso'],
+      correct_answer: 'Verdad',
+    },
+    {
+      number: 209,
+      question: 'CCB significa',
+      answers: [
+        'Cambio de tablero de control',
+        'Cambio de línea base de control',
+        'Cambios acumulados en la línea de base',
+        'Ninguna de las mencionadas',
+      ],
+      correct_answer: 'Cambio de tablero de control',
+    },
+    {
+      number: 210,
+      question:
+        '¿Qué información se requiere para procesar un cambio a una línea de base?',
+      answers: [
+        'Razones para realizar los cambios',
+        'Una descripción de los cambios propuestos',
+        'Lista de otros elementos afectados por los cambios',
+        'Todas las mencionadas',
+      ],
+      correct_answer: 'Todas las mencionadas',
+    },
+    {
+      number: 211,
+      question: 'El tamaño y la complejidad son parte de:',
+      answers: [
+        'Métricas del producto',
+        'Métricas del proceso',
+        'Métricas del proyecto',
+        'Todas las mencionadas',
+      ],
+      correct_answer: 'Métricas del proyecto',
+    },
+    {
+      number: 212,
+      question: 'El costo y el horario son parte de:',
+      answers: [
+        'Métricas del producto',
+        'Métricas del proceso',
+        'Métricas del proyecto',
+        'Todas las mencionadas',
+      ],
+      correct_answer: 'Métricas del proyecto',
+    },
+    {
+      number: 213,
+      question:
+        'El número de errores encontrados por persona por hora gastada es un ejemplo de:',
+      answers: ['Medida', 'Medir', 'Métrica', 'Todas las mencionadas'],
+      correct_answer: 'Medida',
+    },
+    {
+      number: 214,
+      question:
+        '¿Cuál de los siguientes no está clasificado en la Operación del producto de los factores de calidad del software de McCall?',
+      answers: ['Flexibilidad', 'Confiabilidad', 'Usabilidad', 'Integridad'],
+      correct_answer: 'Integridad',
+    },
+    {
+      number: 215,
+      question:
+        'La relación arco-nodo se da como r = a / n ¿Qué representa (a) en la relación?',
+      answers: [
+        'Número máximo de nodos en cualquier nivel',
+        'El camino más largo desde la raíz hasta una hoja',
+        'Número de módulos',
+        'Líneas de control',
+      ],
+      correct_answer: 'Número de módulos',
+    },
+    {
+      number: 216,
+      question:
+        '¿Cuál de las siguientes no está categorizada bajo Métricas de diseño a nivel de componente?',
+      answers: [
+        'Métricas de complejidad',
+        'Métricas de Cohesión',
+        'Morfología Métrica',
+        'Métricas de acoplamiento',
+      ],
+      correct_answer: 'Métricas de Cohesión',
+    },
+    {
+      number: 217,
+      question: 'El porcentaje de módulos que fueron inspeccionados es parte de:',
+      answers: [
+        'Métricas del producto',
+        'Métricas del proceso',
+        'Métricas del proyecto',
+        'Todas las mencionadas',
+      ],
+      correct_answer: 'Métricas del proceso',
+    },
+    {
+      number: 218,
+      question: 'Métrico es el acto de obtener una medida',
+      answers: ['Verdad', 'Falso'],
+      correct_answer: 'Verdad',
+    },
+    {
+      number: 219,
+      question: 'MTTC cae en la categoría de:',
+      answers: ['Corrección', 'Integridad', 'Mantenibilidad', 'Todas las mencionadas'],
+      correct_answer: 'Todas las mencionadas',
+    },
+    {
+      number: 220,
+      question:
+        'Identifique la opción correcta con referencia a Métricas de calidad del software',
+      answers: [
+        'Integrity = [Sigma(1 - threat)] * (1 - security)',
+        'Integrity = [1 - Sigma(threat)] * (1 - security)',
+        'Integrity = [1 - threat * Sigma(1 - security)]',
+        'Integrity = Sigma[1 - threat * (1 - security)]',
+      ],
+      correct_answer: 'Integrity = [1 - threat * Sigma(1 - security)]',
+    },
+    {
+      number: 221,
+      question: 'Los dispositivos físicos de una computadora:',
+      answers: ['Software', 'Paquete', 'Hardware', 'Software del sistema'],
+      correct_answer: 'Paquete',
+    },
+    {
+      number: 222,
+      question:
+        'El paquete de software es un grupo de programas que resuelven múltiples problemas',
+      answers: ['Verdad', 'Falso'],
+      correct_answer: 'Falso',
+    },
+    {
+      number: 223,
+      question:
+        '_____ se refiere a renovar o cambiar componentes, como aumentar la memoria principal o las capacidades del disco duro, o agregar altavoces, módems, etc',
+      answers: ['Grados', 'Prosodia', 'Síntesis', 'Actualizaciones'],
+      correct_answer: 'Actualizaciones',
+    },
+    {
+      number: 224,
+      question:
+        '¿Cuál de los siguientes está diseñado para controlar las operaciones de una computadora?',
+      answers: [
+        'Software de aplicación',
+        'Software del sistema',
+        'Software de utilidad',
+        'Usuario',
+      ],
+      correct_answer: 'Software del sistema',
+    },
+    {
+      number: 225,
+      question: '¿Cuál de los siguientes no es un ejemplo de software del sistema?',
+      answers: [
+        'Traductor de idiomas',
+        'Software de utilidad',
+        'Software de comunicación',
+        'Procesadores de textos',
+      ],
+      correct_answer: 'Procesadores de textos',
+    },
+    {
+      number: 226,
+      question:
+        'Una persona que diseña los programas en un paquete de software se llama:',
+      answers: [
+        'Usuario',
+        'Gerente de Software',
+        'Desarrollador del sistema',
+        'Programador del sistema',
+      ],
+      correct_answer: 'Desarrollador del sistema',
+    },
+    {
+      number: 227,
+      question:
+        '_____ está diseñado para resolver un problema específico o para hacer una tarea específica',
+      answers: [
+        'Software de aplicación',
+        'Software del sistema',
+        'Software de utilidad',
+        'Usuario',
+      ],
+      correct_answer: 'Software del sistema',
+    },
+    {
+      number: 228,
+      question: '¿El ensamblador se utiliza como traductor para?',
+      answers: ['Lenguaje de bajo nivel', 'Lenguaje de alto nivel', 'COBOL', 'C'],
+      correct_answer: 'Lenguaje de bajo nivel',
+    },
+    {
+      number: 229,
+      question: '¿Cómo llamas a un programa en ejecución?',
+      answers: ['Comando', 'Proceso', 'Tarea', 'Instrucción'],
+      correct_answer: 'Proceso',
+    },
+    {
+      number: 230,
+      question: '¿Cuál de los siguientes no es un estado de proceso?',
+      answers: ['Terminado', 'Corriendo', 'Bloqueado', 'Ejecución'],
+      correct_answer: 'Ejecución',
+    },
+    {
+      number: 231,
+      question: 'La gestión de calidad en ingeniería de software también se conoce como:',
+      answers: ['SQA', 'SQM', 'SQI', 'SQA y SQM'],
+      correct_answer: 'SQA',
+    },
+    {
+      number: 232,
+      question:
+        'La calidad también puede considerarse en términos de satisfacción del usuario, que incluye:',
+      answers: [
+        'Un producto conforme',
+        'Salida de buena calidad',
+        'Entrega dentro del presupuesto y horario',
+        'Todas las mencionadas',
+      ],
+      correct_answer: 'Todas las mencionadas',
+    },
+    {
+      number: 233,
+      question: '¿Las inspecciones y pruebas son qué tipos de costos de calidad?',
+      answers: ['Prevención', 'Fallo interno', 'Fallo externo', 'Evaluación'],
+      correct_answer: 'Evaluación',
+    },
+    {
+      number: 234,
+      question:
+        'Según el principio de Pareto, el x% de los defectos se puede rastrear al y% de todas las causas ¿Cuáles son los valores de x y y?',
+      answers: ['60, 40', '70, 30', '80, 20', 'No existe tal principio'],
+      correct_answer: '80, 20',
+    },
+    {
+      number: 235,
+      question: '¿Qué es Six Sigma?',
+      answers: [
+        'Es la estrategia más utilizada para el aseguramiento de la calidad estadística',
+        'El "Six Sigma" se refiere a seis desviaciones estándar',
+        'Es la estrategia más utilizada para el aseguramiento de la calidad estadística Y el "Six Sigma" se refiere a seis desviaciones estándar',
+        'Una guía de Revisión Técnica Formal (FTR) para la inspección de calidad',
+      ],
+      correct_answer:
+        'Es la estrategia más utilizada para el aseguramiento de la calidad estadística Y el "Six Sigma" se refiere a seis desviaciones estándar',
+    },
+    {
+      number: 236,
+      question: '¿Cuál de los siguientes no es un paso central de Six Sigma?',
+      answers: ['Definir', 'Control', 'Medida', 'Analizar'],
+      correct_answer: 'Control',
+    },
+    {
+      number: 237,
+      question: 'La no conformidad con los requisitos del software se conoce como:',
+      answers: [
+        'Disponibilidad de software',
+        'Fiabilidad del software',
+        'Falla del software',
+        'Ninguna de las mencionadas',
+      ],
+      correct_answer: 'Falla del software',
+    },
+    {
+      number: 238,
+      question:
+        'La seguridad del software es equivalente a la confiabilidad del software',
+      answers: ['Verdad', 'Falso'],
+      correct_answer: 'Falso',
+    },
+    {
+      number: 239,
+      question:
+        'La mala interpretación de la comunicación con el cliente es una muestra de posibles defectos de causa',
+      answers: ['Verdad', 'Falso'],
+      correct_answer: 'Verdad',
+    },
+    {
+      number: 240,
+      question:
+        '¿En qué tipo de costo de calidad se incurre cuando se detecta un error en un producto antes del envío?',
+      answers: ['Prevención', 'Fallo interno', 'Fallo externo', 'Evaluación'],
+      correct_answer: 'Fallo interno',
+    },
+    {
+      number: 241,
+      question:
+        'El grado en que se siguen las especificaciones de diseño durante la fabricación se conoce como:',
+      answers: [
+        'Calidad de diseño',
+        'Calidad de conformidad',
+        'Calidad de las pruebas',
+        'Ninguna de las mencionadas',
+      ],
+      correct_answer: 'Calidad de conformidad',
+    },
+    {
+      number: 242,
+      question:
+        'La calidad del diseño abarca los requisitos y las especificaciones del sistema',
+      answers: ['Verdad', 'Falso'],
+      correct_answer: 'Verdad',
+    },
+    {
+      number: 243,
+      question:
+        'De acuerdo con la norma ISO 9001, la inspección y las pruebas son responsabilidad de la administración',
+      answers: [
+        'Control de proceso',
+        'Control de documentos',
+        'Control de productos no conformes',
+        'Mantenimiento',
+      ],
+      correct_answer: 'Control de proceso',
+    },
+    {
+      number: 244,
+      question:
+        '¿Cuál de los siguientes no es un diagrama estudiado en Análisis de requisitos?',
+      answers: [
+        'Casos de uso',
+        'Diagrama de relación de entidad',
+        'Diagrama de transición del estado',
+        'Diagrama de actividad',
+      ],
+      correct_answer: 'Diagrama de actividad',
+    },
+    {
+      number: 245,
+      question:
+        '¿Cuántos estudios de factibilidad se realizan en el Análisis de Requerimientos?',
+      answers: ['Dos', 'Tres', 'Cuatro', 'Ninguna de las mencionadas'],
+      correct_answer: 'Tres',
+    },
+    {
+      number: 246,
+      question: '¿Cuántas fases hay en el Análisis de Requerimientos?',
+      answers: ['Tres', 'Cuatro', 'Cinco', 'Seis'],
+      correct_answer: 'Cinco',
+    },
+    {
+      number: 247,
+      question: 'La trazabilidad no se considera en el análisis de requisitos',
+      answers: ['Verdad', 'Falso'],
+      correct_answer: 'Falso',
+    },
+    {
+      number: 248,
+      question:
+        'El análisis de requisitos es crítico para el éxito de un proyecto de desarrollo',
+      answers: [
+        'Verdad',
+        'Falso',
+        'Depende del tamaño del proyecto',
+        'Ninguna de las mencionadas',
+      ],
+      correct_answer: 'Verdad',
+    },
+    {
+      number: 249,
+      question: '_____ y _____ son las dos cuestiones del Análisis de requisitos',
+      answers: [
+        'Performance, Diseño',
+        'Grupo de Interés, Desarrollador',
+        'Funcional, no funcional',
+        'Ninguna de las mencionadas',
+      ],
+      correct_answer: 'Grupo de Interés, Desarrollador',
+    },
+    {
+      number: 250,
+      question:
+        'Los requisitos que resultan del análisis de requisitos se expresan típicamente desde una de las tres perspectivas o vistas ¿Qué es esa perspectiva o vista?',
+      answers: ['Desarrollador', 'Usuario', 'No funcional', 'Físico'],
+      correct_answer: 'Físico',
+    },
+    {
+      number: 251,
+      question: 'El análisis de requerimientos es un proceso iterativo',
+      answers: ['Verdad', 'Falso'],
+      correct_answer: 'Verdad',
+    },
+    {
+      number: 252,
+      question:
+        'Coad y Yourdon sugirieron _____ características de selección que deberían usarse como analista y considera cada objeto potencial para su inclusión en el modelo de análisis de requisitos',
+      answers: ['Tres', 'Cuatro', 'Cinco', 'Seis'],
+      correct_answer: 'Seis',
+    },
+    {
+      number: 253,
+      question: 'Los requisitos deben especificar "qué" pero no "cómo"',
+      answers: ['Verdad', 'Falso'],
+      correct_answer: 'Verdad',
+    },
+    {
+      number: 254,
+      question:
+        '¿Qué dos requisitos tienen prioridad durante la gestión de requisitos de un producto?',
+      answers: [
+        'Usuario y desarrollador',
+        'Funcional y no funcional',
+        'Duradero y volátil',
+        'Todas las mencionadas',
+      ],
+      correct_answer: 'Duradero y volátil',
+    },
+    {
+      number: 255,
+      question:
+        'Teniendo en cuenta el ejemplo de emisión / devolución de un libro, catalogación, etc en la gestión de una biblioteca ¿Qué tipo de requisito de gestión se describe aquí?',
+      answers: ['Duradero', 'volátil', 'Duradero y volátil', 'Todas las mencionadas'],
+      correct_answer: 'Duradero',
+    },
+    {
+      number: 256,
+      question: '¿Por qué es importante la gestión de requisitos? Se debe a los cambios',
+      answers: [
+        'Al medio ambiente',
+        'En tecnología',
+        'En las expectativas del cliente',
+        'En todo lo mencionado',
+      ],
+      correct_answer: 'En todo lo mencionado',
+    },
+    {
+      number: 257,
+      question:
+        'La gestión de requisitos es un requisito previo para el desarrollo orientado a la calidad',
+      answers: ['Verdad', 'Falso'],
+      correct_answer: 'Verdad',
+    },
+    {
+      number: 258,
+      question:
+        'La trazabilidad de los requisitos es una de las partes más importantes en la gestión de requisitos También puede ser referido como el corazón de la gestión de requisitos',
+      answers: ['Verdad', 'Falso'],
+      correct_answer: 'Verdad',
+    },
+    {
+      number: 259,
+      question:
+        'La gestión de requisitos tiene un alto costo de inicio inicial pero no necesita financiamiento continuo a lo largo de un proyecto',
+      answers: ['Verdad', 'Falso'],
+      correct_answer: 'Falso',
+    },
+    {
+      number: 260,
+      question:
+        '¿Cuál de las siguientes no es una herramienta de Workbench de Gestión de Requisitos?',
+      answers: ['RTM', 'puertas', 'Suite Racional', 'RDD 100'],
+      correct_answer: 'Suite Racional',
+    },
+    {
+      number: 261,
+      question: '¿Cuál de las siguientes es una actividad de gestión de requisitos?',
+      answers: [
+        'Investigación',
+        'Diseño',
+        'Construcción y ensayo',
+        'Todas las mencionadas',
+      ],
+      correct_answer: 'Todas las mencionadas',
+    },
+    {
+      number: 262,
+      question:
+        "Qué funcionalidad de la Herramienta de administración de requisitos (RMT) se describe en la declaración: 'la herramienta debe poder detectar automáticamente las relaciones entre los artefactos Por ejemplo, técnicas de recuperación de información, monitoreo del historial de cambios, nombres de esquemas o transformaciones de modelos'",
+      answers: [
+        'Detección automática de enlaces',
+        'Soporte a la documentación',
+        'Representación gráfica',
+        'Creación y cambio automático de enlaces',
+      ],
+      correct_answer: 'Detección automática de enlaces',
+    },
+    {
+      number: 263,
+      question:
+        "Según un informe estadístico: 'más del 30% de todos los proyectos de software se cancelan antes de completarse y más del 70% del resto no entrega las funciones esperadas' ¿Cuál debe ser la razón de tal situación?",
+      answers: [
+        'Mala gestión del cambio',
+        'Mala gestión de los requisitos',
+        'Pobre control de calidad',
+        'Todas las mencionadas',
+      ],
+      correct_answer: 'Mala gestión de los requisitos',
+    },
+    {
+      number: 264,
+      question: "¿La forma completa de 'OS' es?",
+      answers: [
+        'Orden de importancia',
+        'Sistema operativo',
+        'Software abierto',
+        'Sensor óptico',
+      ],
+      correct_answer: 'Sistema operativo',
+    },
+    {
+      number: 265,
+      question: 'La cinta se utiliza en?',
+      answers: [
+        'Impresora laser',
+        'Trazador (Plotter)',
+        'Impresora de chorro de tinta',
+        'Impresora matricial de puntos',
+      ],
+      correct_answer: 'Impresora matricial de puntos',
+    },
+    {
+      number: 266,
+      question: 'La libreta de direcciones contiene?',
+      answers: [
+        'Dirección de correo electrónico',
+        'Números de teléfono',
+        'Nombres de personas',
+        'Todas las anteriores',
+      ],
+      correct_answer: 'Todas las anteriores',
+    },
+    {
+      number: 267,
+      question: "¿Formulario completo de 'DOCOMO'?",
+      answers: [
+        'Conectarse a través del móvil',
+        'Comunicaciones a través de la red móvil',
+        'Dongle Comunicación Sobre Móvil',
+        'Hacer comunicación o más',
+      ],
+      correct_answer: 'Comunicaciones a través de la red móvil',
+    },
+    {
+      number: 268,
+      question: 'Joystick se utiliza para?',
+      answers: [
+        'Mueve el cursor en la pantalla',
+        'Juegos de computadora',
+        'Mueve el cursor en la pantalla y Juegos de computadora',
+        'Ninguno de esos',
+      ],
+      correct_answer: 'Mueve el cursor en la pantalla y Juegos de computadora',
+    },
+    {
+      number: 269,
+      question: '¿Un DNS traduce un nombre de dominio en qué?',
+      answers: ['Binary', 'Hex', 'IP', 'URL'],
+      correct_answer: 'IP',
+    },
+    {
+      number: 270,
+      question: '¿Cuándo se envió el primer correo electrónico?',
+      answers: ['1963', '1969', '1971', '1974'],
+      correct_answer: '1971',
+    },
+    {
+      number: 271,
+      question: '¿Qué tipo de memoria es volátil?',
+      answers: ['Cache', 'RAM', 'ROM', 'Disco duro'],
+      correct_answer: 'RAM',
+    },
+    {
+      number: 272,
+      question: '¿Cuál de las siguientes no es una característica del iPhone 4?',
+      answers: ['4G', 'Cámara frontal', 'Grabación HD', 'Multitarea'],
+      correct_answer: '4G',
+    },
+    {
+      number: 273,
+      question: 'La memoria principal también se conoce cómo?',
+      answers: [
+        'Memoria auxiliar',
+        'Memoria primaria',
+        'Memoria secundaria',
+        'Ninguna de las anteriores',
+      ],
+      correct_answer: 'Memoria primaria',
+    },
+    {
+      number: 274,
+      question: '¿Una presentación significa?',
+      answers: [
+        'Exhibición de productos',
+        'Explicando la utilidad de los productos',
+        'Un regalo',
+        'Exhibición de la comunicación o habilidades',
+      ],
+      correct_answer: 'Explicando la utilidad de los productos',
+    },
+    {
+      number: 275,
+      question: 'El término CRM significa?',
+      answers: [
+        'Gestión de la relación con el cliente',
+        'Gerente de Retención de Clientes',
+        'Reunión relativa del cliente',
+        'Mercado de raíces de canal',
+      ],
+      correct_answer: 'Gestión de la relación con el cliente',
+    },
+    {
+      number: 276,
+      question: '¿Por qué se usaría un switch en una red en lugar de un HUB?',
+      answers: [
+        'Para reducir el tráfico de red',
+        'Para prevenir la propagación de todos los virus',
+        'Para conectar una computadora directamente a internet',
+        'Para gestionar la seguridad de las contraseñas en la estación de trabajo',
+      ],
+      correct_answer: 'Para reducir el tráfico de red',
+    },
+    {
+      number: 277,
+      question:
+        '¿Qué se debe hacer para convertir con éxito el formato de una imagen de BMP a JPEG?',
+      answers: [
+        'Comprimir el archivo',
+        'Renombrar la imagen',
+        'Usar el guardar como comando',
+        'Cambiar la extensión del archivo de imagen',
+      ],
+      correct_answer: 'Usar el guardar como comando',
+    },
+    {
+      number: 278,
+      question:
+        'Una empresa actualiza regularmente una guía de referencia para el usuario Algunos empleados están confundidos acerca de cuál de los documentos impresos es el más actualizado ¿Qué característica debe incluirse en la guía de referencia para eliminar esta confusión?',
+      answers: [
+        'Comprimir el archivo',
+        'Renombrar la imagen',
+        'Usar el guardar como comando',
+        'Cambiar la extensión del archivo de imagen',
+      ],
+      correct_answer: 'Renombrar la imagen',
+    },
+    {
+      number: 279,
+      question:
+        'El término asociado con el procesamiento de la velocidad de comparación es?',
+      answers: ['FFTS', 'MPG', 'MIPS', 'CPS'],
+      correct_answer: 'MIPS',
+    },
+    {
+      number: 280,
+      question:
+        'Los datos de una hoja de cálculo deben importarse en un paquete de base de datos ¿Qué formato de archivo sería el más apropiado al guardar el archivo de hoja de cálculo?',
+      answers: ['CSV', 'HTML', 'PDF', 'RTF'],
+      correct_answer: 'CSV',
+    },
+    {
+      number: 281,
+      question: 'Para reproducir sonido, el reproductor de audio CD utiliza un?',
+      answers: [
+        'Cristal de cuarzo',
+        'Aguja de titanio',
+        'Rayo laser',
+        'Barium Titanium Ceramic',
+      ],
+      correct_answer: 'Rayo laser',
+    },
+    {
+      number: 282,
+      question:
+        '¿Cuál de los siguientes indicaría que la batería de la placa base ha fallado?',
+      answers: [
+        'Las contraseñas del sistema operativo se pierden',
+        'Los archivos en el disco duro se pierden y se corrompen',
+        'La configuración del hardware, incluida la memoria virtual, vuelve a los valores predeterminados',
+        'La configuración del hardware, incluida la fecha y hora actuales, vuelve a los valores predeterminados',
+      ],
+      correct_answer:
+        'La configuración del hardware, incluida la fecha y hora actuales, vuelve a los valores predeterminados',
+    },
+    {
+      number: 283,
+      question:
+        '¿Cuál de los siguientes es un componente esencial del ciclo de comunicación?',
+      answers: [
+        'Un mensaje',
+        'Un intérprete',
+        'Una cuenta de correo electrónico',
+        'Una conexión a internet',
+      ],
+      correct_answer: 'Un mensaje',
+    },
+    {
+      number: 284,
+      question: '¿Qué país creó el software de red más utilizado en la década de 1980?',
+      answers: ['Sun', 'IBM', 'Novell', 'Microsoft'],
+      correct_answer: 'Novell',
+    },
+    {
+      number: 285,
+      question:
+        '¿En qué año se eligió la @ para su uso en la dirección de correo electrónico?',
+      answers: ['1972', '1976', '1980', '1984'],
+      correct_answer: '1972',
+    },
+    {
+      number: 286,
+      question: '¿Qué compañía de computadoras estadounidense se llama Big Blue?',
+      answers: ['IBM', 'Compaq corp', 'Microsoft', 'Tandy svenson'],
+      correct_answer: 'IBM',
+    },
+    {
+      number: 287,
+      question:
+        '¿A quién se le atribuye la idea de usar tarjetas perforadas para controlar patrones en una máquina de ondulación?',
+      answers: ['Pascal', 'Hollerith', 'Babbage', 'Jacquard'],
+      correct_answer: 'Jacquard',
+    },
+    {
+      number: 288,
+      question: '¿Qué significa SSL?',
+      answers: [
+        'Capa de socket del sistema (System socket layer)',
+        'Acceso seguro al sistema (Secure system login)',
+        'Capa de conexión segura (Secure socket layer)',
+        'Acceso seguro al sistema (Secure system login)',
+      ],
+      correct_answer: 'Capa de conexión segura (Secure socket layer)',
+    },
+    {
+      number: 289,
+      question: '¿Qué es MAC?',
+      answers: [
+        'Una computadora hecha por Apple',
+        'Corrupción de la dirección de memoria',
+        'Computadora Apple Mediocre',
+        'El control de acceso a medios',
+      ],
+      correct_answer: 'El control de acceso a medios',
+    },
+    {
+      number: 290,
+      question: '¿Qué significa PPTP?',
+      answers: [
+        'Protocolo de transmisión punto a punto',
+        'Protocolo de transferencia punto a punto',
+        'Protocolo de túnel de punto a punto',
+        'Protocolo de tráfico punto a punto',
+      ],
+      correct_answer: 'Protocolo de túnel de punto a punto',
+    },
+    {
+      number: 291,
+      question:
+        'El IBM PC-XT fue el primero en incluir un disco duro ¿Cuál fue la capacidad de este disco?',
+      answers: ['750 KB', '10 KB', '20 KB', '144 KB'],
+      correct_answer: '10 KB',
+    },
+    {
+      number: 292,
+      question:
+        "En 1983, ¿qué persona fue la primera en ofrecer una definición del término 'virus informático'?",
+      answers: ['Smith', 'Cohen', 'Norton', 'Mcafee'],
+      correct_answer: 'Cohen',
+    },
+    {
+      number: 293,
+      question: 'La abreviatura de la computadora DTP usualmente significa?',
+      answers: [
+        'DeskTop Publishing',
+        'Tipo de datos de programación',
+        'Protocolo de transmisión digital',
+        'Ninguna de las anteriores',
+      ],
+      correct_answer: 'Tipo de datos de programación',
+    },
+    {
+      number: 294,
+      question:
+        'La introducción de la especificación de requisitos de software establece:',
+      answers: ['Objetivos', 'Objetivo', 'Diseño', 'Metas y objetivos del software'],
+      correct_answer: 'Objetivos',
+    },
+    {
+      number: 295,
+      question:
+        'El paso de generación de código realiza la tarea Seleccione la opción correcta:',
+      answers: [
+        'Especificación traducida a una forma legible por máquina',
+        'Diseño traducido en una forma legible por máquina',
+        'Requisitos traducidos a un formato legible por máquina',
+        'Datos de usuario traducidos a un formato legible por máquina',
+      ],
+      correct_answer: 'Diseño traducido en una forma legible por máquina',
+    },
+    {
+      number: 296,
+      question:
+        "La/el _____ es la capacidad de alentar a las personas técnicas 'empujar o tirar' para que produzcan lo mejor posible",
+      answers: [
+        'Acción de Evaluar',
+        'La motivación',
+        'Ninguno de los dados',
+        'Monitoreo',
+      ],
+      correct_answer: 'La motivación',
+    },
+    {
+      number: 297,
+      question:
+        '_____ contiene un análisis de lo que salió mal, lo que salió bien y lo que podría haber hecho mejor en el proyecto de software',
+      answers: [
+        'Preparar informe de cierre',
+        'Identificar el aprendizaje',
+        'Identificar componentes de software reutilizables',
+        'Ninguno',
+      ],
+      correct_answer: 'Preparar informe de cierre',
+    },
+    {
+      number: 298,
+      question: '¿En qué se basa la arquitectura de un software?',
+      answers: [
+        'Diseño',
+        'Requisitos',
+        'Todas las mencionadas',
+        'Ninguna de las mencionadas',
+      ],
+      correct_answer: 'Requisitos',
+    },
+    {
+      number: 299,
+      question:
+        '¿Qué pasaría si a una organización diferente se le diera el mismo conjunto de requisitos?',
+      answers: [
+        'Producirá la misma arquitectura',
+        'Producirá diferente arquitectura',
+        'Puede o no producir la misma arquitectura',
+        'Ninguna de las mencionadas',
+      ],
+      correct_answer: 'Puede o no producir la misma arquitectura',
+    },
   ],
 };
