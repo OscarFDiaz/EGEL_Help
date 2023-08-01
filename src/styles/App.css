@@ -231,9 +231,8 @@ body {
 .question__button {
   cursor: pointer;
   padding: 1rem;
-  border: 1px solid #4e4c4e;
+  border: 1px solid #0648fc;
   border-radius: 1rem;
-  width: 100%;
   transition: transform 200ms linear;
 }
 .question__button:hover {
@@ -251,6 +250,11 @@ body {
   line-height: normal;
   text-transform: inherit;
   border: none;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
 }
 .question__button--next {
   font-family: Poppins;
@@ -261,6 +265,18 @@ body {
   text-transform: inherit;
   color: #fff;
   background-color: #0648fc;
+  flex-grow: 1;
+}
+.question__button--report {
+  border: none;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+.question__button--report:hover {
+  border: 1px solid #e94c3d;
 }
 .question__container {
   display: flex;

@@ -1,3 +1,5 @@
+import { BackArrow } from '../assets/BackArrow';
+import { ReportQuestion } from '../assets/ReportQuestion';
 import { informatica2023 } from '../data/informatica2023';
 import { useHandleQuestion } from '../hooks/useHandleQuestion';
 
@@ -69,15 +71,23 @@ export const Question = () => {
       </div>
       <div className="question__buttons">
         {questionIndex !== 0 && (
-          <button
-            className="question__button question__button--back"
-            onClick={handlePrevQuestion}
-          >
-            Anterior
-          </button>
+          <>
+            <button
+              className="question__button question__button--report"
+              onClick={handlePrevQuestion}
+            >
+              <ReportQuestion />
+            </button>
+            <button
+              className="question__button question__button--back"
+              onClick={handlePrevQuestion}
+            >
+              <BackArrow />
+            </button>
+          </>
         )}
 
-        {questionIndex === questionAmount ? (
+        {questionIndex === questionAmount - 1 ? (
           <button
             className="question__button question__button--next"
             onClick={handleNextQuestion}
