@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { informatica2023 } from '../data/informatica2023';
+import Swal from 'sweetalert2';
 
 export const useHandleQuestion = () => {
   const { questions } = informatica2023;
@@ -77,6 +78,22 @@ export const useHandleQuestion = () => {
     }
   };
 
+  const handleFinishQuestion = () => {
+    const correct = isAnswerCorrect.filter((value) => value === true).length;
+    const incorrect = isAnswerCorrect.filter((value) => value === false).length;
+    Swal.fire({
+      title: 'Preguntas terminadas',
+      text: `Correctas: ${correct} - Incorrectas ${incorrect}`,
+      icon: 'success',
+      confirmButtonText: 'Terminar',
+      footer: 'Se reiniciaran todo',
+    });
+    localStorage.clear();
+    setquestionIndex(0);
+    setIsAnswerCorrect([]);
+    setSelectedAnswers([]);
+  };
+
   return {
     // Data
     questionIndex,
@@ -89,5 +106,6 @@ export const useHandleQuestion = () => {
     handleAnswerChange,
     handleNextQuestion,
     handlePrevQuestion,
+    handleFinishQuestion,
   };
 };

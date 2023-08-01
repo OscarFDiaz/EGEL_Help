@@ -16,6 +16,7 @@ export const Question = () => {
     handleAnswerChange,
     handleNextQuestion,
     handlePrevQuestion,
+    handleFinishQuestion,
   } = useHandleQuestion();
 
   const { answers, question, number, correct_answer } = questions[questionIndex];
@@ -70,14 +71,15 @@ export const Question = () => {
         </section>
       </div>
       <div className="question__buttons">
+        <button
+          className="question__button question__button--report"
+          onClick={handlePrevQuestion}
+        >
+          <span className="question__span">Reportar pregunta</span>
+          <ReportQuestion />
+        </button>
         {questionIndex !== 0 && (
           <>
-            <button
-              className="question__button question__button--report"
-              onClick={handlePrevQuestion}
-            >
-              <ReportQuestion />
-            </button>
             <button
               className="question__button question__button--back"
               onClick={handlePrevQuestion}
@@ -90,7 +92,7 @@ export const Question = () => {
         {questionIndex === questionAmount - 1 ? (
           <button
             className="question__button question__button--next"
-            onClick={handleNextQuestion}
+            onClick={handleFinishQuestion}
           >
             Terminar
           </button>
