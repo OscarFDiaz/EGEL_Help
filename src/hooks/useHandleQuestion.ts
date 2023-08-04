@@ -81,13 +81,23 @@ export const useHandleQuestion = () => {
   const handleFinishQuestion = () => {
     const correct = isAnswerCorrect.filter((value) => value === true).length;
     const incorrect = isAnswerCorrect.filter((value) => value === false).length;
+    const correctPercent = ((correct / questionAmount) * 100).toFixed(2);
+    const incorrectPercent = ((incorrect / questionAmount) * 100).toFixed(2);
+
     Swal.fire({
       title: 'Preguntas terminadas',
-      text: `Correctas: ${correct} - Incorrectas ${incorrect}`,
+      text: `Correctas: ${correct} (${correctPercent}%) - Incorrectas ${incorrect} (${incorrectPercent}%)`,
       icon: 'success',
+      customClass: {
+        confirmButton: 'border-radius-16',
+        closeButton: 'border-radius-16',
+        popup: 'border-radius-32',
+      },
       confirmButtonText: 'Terminar',
+      confirmButtonColor: '#0648fc',
       footer: 'Se reiniciaran todo',
     });
+
     localStorage.clear();
     setquestionIndex(0);
     setIsAnswerCorrect([]);

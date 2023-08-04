@@ -90,7 +90,7 @@ export const informatica2023: Props = {
       answers: [
         'Prueba de declaración',
         'Prueba de decisión',
-        'cobertura de la condición',
+        'Cobertura de la condición',
         'Todas las mencionadas',
       ],
     },
@@ -157,16 +157,16 @@ export const informatica2023: Props = {
         'Prueba de caja gris',
         'Prueba de caja blanca',
         'Prueba alfa',
-        'prueba beta',
+        'Prueba beta',
       ],
     },
     {
       number: 13,
       question: '¿Cuál de las siguientes es una prueba no funcional?',
-      correct_answer: 'Ensayo de amplitud y ensayo de profundidad',
+      correct_answer: 'Pruebas de rendimiento',
       answers: [
         'Prueba de caja negra',
-        'pruebas de rendimiento',
+        'Pruebas de rendimiento',
         'Pruebas unitarias',
         'Ninguna de las mencionadas',
       ],
@@ -174,7 +174,7 @@ export const informatica2023: Props = {
     {
       number: 14,
       question: 'La prueba beta se realiza en:',
-      correct_answer: 'Fin de usuario',
+      correct_answer: 'Fin del usuario',
       answers: [
         'Fin del usuario',
         'Fin del desarrollador',
@@ -246,7 +246,7 @@ export const informatica2023: Props = {
     {
       number: 21,
       question:
-        'Muchas aplicaciones que utilizan análisis estático encuentran 01-02% NCSS NCSS significa:',
+        'Muchas aplicaciones que utilizan análisis estático encuentran 01-02% NCSS, NCSS significa:',
       correct_answer: 'Declaración de fuente sin comentarios',
       answers: [
         'Declaración de fuente no codificada',
@@ -718,7 +718,7 @@ export const informatica2023: Props = {
     {
       number: 72,
       question:
-        'Qué perspectiva en el modo del sistema muestra el sistema o la arquitectura de datos',
+        '¿Qué perspectiva en el modo del sistema muestra el sistema o la arquitectura de datos?',
       answers: [
         'Perspectiva estructural',
         'Perspectiva de comportamiento',
@@ -749,7 +749,7 @@ export const informatica2023: Props = {
     {
       number: 75,
       question:
-        'La ingeniería basada en modelos es solo un concepto teórico No se puede convertir en un código de trabajo / ejecutable',
+        'La ingeniería basada en modelos es solo un concepto teórico. No se puede convertir en un código de trabajo / ejecutable',
       answers: ['Verdad', 'Falso'],
       correct_answer: 'Falso',
     },
@@ -1101,12 +1101,7 @@ export const informatica2023: Props = {
     {
       number: 111,
       question: 'En códigos significativos algunas o todas las partes del código:',
-      answers: [
-        'Son significativas',
-        'Son utilizables',
-        'Son significativas',
-        'Representar valores',
-      ],
+      answers: ['Son significativas', 'Son utilizables', 'Representar valores'],
       correct_answer: 'Representar valores',
     },
     {
@@ -1130,12 +1125,7 @@ export const informatica2023: Props = {
     {
       number: 114,
       question: 'La herramienta principal utilizada en el diseño estructurado es una:',
-      answers: [
-        'Diagrama de estructura',
-        'Diagrama de estructura',
-        'Diagrama de flujo del programa',
-        'Módulo',
-      ],
+      answers: ['Diagrama de estructura', 'Diagrama de flujo del programa', 'Módulo'],
       correct_answer: 'Diagrama de estructura',
     },
     {
@@ -1540,7 +1530,7 @@ export const informatica2023: Props = {
       answers: [
         'Programa de base de datos',
         'Hoja de cálculo',
-        'programa de contabilidad',
+        'Programa de contabilidad',
         'Programa de procesamiento de textos',
       ],
       correct_answer: 'Programa de procesamiento de textos',
@@ -1560,7 +1550,7 @@ export const informatica2023: Props = {
     {
       number: 153,
       question:
-        'Los programas de computadora que hacen posible que diferentes marcas de computadoras se transfiera n datos entre sí se llaman:',
+        'Los programas de computadora que hacen posible que diferentes marcas de computadoras se transfieran datos entre sí se llaman:',
       answers: [
         'Software del centro de mensajes',
         'Software de base de datos',
@@ -1619,7 +1609,7 @@ export const informatica2023: Props = {
       answers: [
         'Implica menos tiempo de viaje',
         'Permite a las empresas retener a empleados valiosos durante el embarazo',
-        'permite a hombres y mujeres quedarse en casa con niños pequeños',
+        'Permite a hombres y mujeres quedarse en casa con niños pequeños',
         'Todas las anteriores',
       ],
       correct_answer: 'Todas las anteriores',
@@ -1865,7 +1855,7 @@ export const informatica2023: Props = {
         'El cliente puede responder a cada incremento',
         'Más fácil de probar y depurar',
         'Se utiliza cuando es necesario llevar un producto al mercado antes de tiempo',
-        'Más fácil de probar y depurar Se utiliza cuando existe la necesidad de llevar un producto al mercado antes de tiempo',
+        'Más fácil de probar y depurar. Se utiliza cuando existe la necesidad de llevar un producto al mercado antes de tiempo',
       ],
       correct_answer:
         'Más fácil de probar y depurar Se utiliza cuando existe la necesidad de llevar un producto al mercado antes de tiempo',
@@ -1973,11 +1963,11 @@ export const informatica2023: Props = {
     {
       number: 193,
       question:
-        'Qué perspectiva en el modelado del sistema muestra el sistema o la arquitectura de datos',
+        '¿Qué perspectiva en el modelado del sistema muestra el sistema o la arquitectura de datos?',
       answers: [
         'Perspectiva estructural',
         'Perspectiva de comportamiento',
-        'perspectiva externa',
+        'Perspectiva externa',
         'Todas las mencionadas',
       ],
       correct_answer: 'Perspectiva estructural',
@@ -1992,7 +1982,7 @@ export const informatica2023: Props = {
     {
       number: 195,
       question:
-        'La ingeniería basada en modelos es solo un concepto teórico No se puede convertir en un código de trabajo / ejecutable',
+        'La ingeniería basada en modelos es solo un concepto teórico. No se puede convertir en un código de trabajo / ejecutable',
       answers: ['Verdad', 'Falso'],
       correct_answer: 'Falso',
     },
@@ -2101,7 +2091,7 @@ export const informatica2023: Props = {
       number: 206,
       question: '¿Cómo se verifican las líneas de base?',
       answers: [
-        'por opiniones',
+        'Por opiniones',
         'Por inspecciones',
         'A prueba de código',
         'Todas las mencionadas',
@@ -2247,7 +2237,7 @@ export const informatica2023: Props = {
       number: 221,
       question: 'Los dispositivos físicos de una computadora:',
       answers: ['Software', 'Paquete', 'Hardware', 'Software del sistema'],
-      correct_answer: 'Paquete',
+      correct_answer: 'Hardware',
     },
     {
       number: 222,
@@ -2536,7 +2526,7 @@ export const informatica2023: Props = {
       number: 255,
       question:
         'Teniendo en cuenta el ejemplo de emisión / devolución de un libro, catalogación, etc en la gestión de una biblioteca ¿Qué tipo de requisito de gestión se describe aquí?',
-      answers: ['Duradero', 'volátil', 'Duradero y volátil', 'Todas las mencionadas'],
+      answers: ['Duradero', 'Volátil', 'Duradero y volátil', 'Todas las mencionadas'],
       correct_answer: 'Duradero',
     },
     {
@@ -2560,7 +2550,7 @@ export const informatica2023: Props = {
     {
       number: 258,
       question:
-        'La trazabilidad de los requisitos es una de las partes más importantes en la gestión de requisitos También puede ser referido como el corazón de la gestión de requisitos',
+        'La trazabilidad de los requisitos es una de las partes más importantes en la gestión de requisitos. También puede ser referido como el corazón de la gestión de requisitos',
       answers: ['Verdad', 'Falso'],
       correct_answer: 'Verdad',
     },
@@ -2575,7 +2565,7 @@ export const informatica2023: Props = {
       number: 260,
       question:
         '¿Cuál de las siguientes no es una herramienta de Workbench de Gestión de Requisitos?',
-      answers: ['RTM', 'puertas', 'Suite Racional', 'RDD 100'],
+      answers: ['RTM', 'Puertas', 'Suite Racional', 'RDD 100'],
       correct_answer: 'Suite Racional',
     },
     {
@@ -2592,7 +2582,7 @@ export const informatica2023: Props = {
     {
       number: 262,
       question:
-        "Qué funcionalidad de la Herramienta de administración de requisitos (RMT) se describe en la declaración: 'la herramienta debe poder detectar automáticamente las relaciones entre los artefactos Por ejemplo, técnicas de recuperación de información, monitoreo del historial de cambios, nombres de esquemas o transformaciones de modelos'",
+        "Qué funcionalidad de la Herramienta de administración de requisitos (RMT) se describe en la declaración: 'la herramienta debe poder detectar automáticamente las relaciones entre los artefactos. Por ejemplo, técnicas de recuperación de información, monitoreo del historial de cambios, nombres de esquemas o transformaciones de modelos'",
       answers: [
         'Detección automática de enlaces',
         'Soporte a la documentación',
@@ -2626,7 +2616,7 @@ export const informatica2023: Props = {
     },
     {
       number: 265,
-      question: 'La cinta se utiliza en?',
+      question: 'La cinta se utiliza en:',
       answers: [
         'Impresora laser',
         'Trazador (Plotter)',
@@ -2637,7 +2627,7 @@ export const informatica2023: Props = {
     },
     {
       number: 266,
-      question: 'La libreta de direcciones contiene?',
+      question: 'La libreta de direcciones contiene:',
       answers: [
         'Dirección de correo electrónico',
         'Números de teléfono',
@@ -2659,7 +2649,7 @@ export const informatica2023: Props = {
     },
     {
       number: 268,
-      question: 'Joystick se utiliza para?',
+      question: 'Joystick se utiliza para:',
       answers: [
         'Mueve el cursor en la pantalla',
         'Juegos de computadora',
@@ -2694,7 +2684,7 @@ export const informatica2023: Props = {
     },
     {
       number: 273,
-      question: 'La memoria principal también se conoce cómo?',
+      question: 'La memoria principal también se conoce cómo:',
       answers: [
         'Memoria auxiliar',
         'Memoria primaria',
@@ -2705,21 +2695,21 @@ export const informatica2023: Props = {
     },
     {
       number: 274,
-      question: '¿Una presentación significa?',
+      question: 'Una presentación significa:',
       answers: [
         'Exhibición de productos',
-        'Explicando la utilidad de los productos',
+        'Explica la utilidad de los productos',
         'Un regalo',
         'Exhibición de la comunicación o habilidades',
       ],
-      correct_answer: 'Explicando la utilidad de los productos',
+      correct_answer: 'Explica la utilidad de los productos',
     },
     {
       number: 275,
-      question: 'El término CRM significa?',
+      question: 'El término CRM significa:',
       answers: [
         'Gestión de la relación con el cliente',
-        'Gerente de Retención de Clientes',
+        'Gerente de retención de Clientes',
         'Reunión relativa del cliente',
         'Mercado de raíces de canal',
       ],
@@ -2751,7 +2741,7 @@ export const informatica2023: Props = {
     {
       number: 278,
       question:
-        'Una empresa actualiza regularmente una guía de referencia para el usuario Algunos empleados están confundidos acerca de cuál de los documentos impresos es el más actualizado ¿Qué característica debe incluirse en la guía de referencia para eliminar esta confusión?',
+        'Una empresa actualiza regularmente una guía de referencia para el usuario, algunos empleados están confundidos acerca de cuál de los documentos impresos es el más actualizado ¿Qué característica debe incluirse en la guía de referencia para eliminar esta confusión?',
       answers: [
         'Comprimir el archivo',
         'Renombrar la imagen',
@@ -2763,7 +2753,7 @@ export const informatica2023: Props = {
     {
       number: 279,
       question:
-        'El término asociado con el procesamiento de la velocidad de comparación es?',
+        'El término asociado con el procesamiento de la velocidad de comparación es:',
       answers: ['FFTS', 'MPG', 'MIPS', 'CPS'],
       correct_answer: 'MIPS',
     },
@@ -2776,7 +2766,7 @@ export const informatica2023: Props = {
     },
     {
       number: 281,
-      question: 'Para reproducir sonido, el reproductor de audio CD utiliza un?',
+      question: 'Para reproducir sonido, el reproductor de audio CD utiliza un:',
       answers: [
         'Cristal de cuarzo',
         'Aguja de titanio',
@@ -2892,19 +2882,19 @@ export const informatica2023: Props = {
         'Protocolo de transmisión digital',
         'Ninguna de las anteriores',
       ],
-      correct_answer: 'Tipo de datos de programación',
+      correct_answer: 'DeskTop Publishing',
     },
     {
       number: 294,
       question:
         'La introducción de la especificación de requisitos de software establece:',
-      answers: ['Objetivos', 'Objetivo', 'Diseño', 'Metas y objetivos del software'],
+      answers: ['Objetivos', 'Diseño', 'Metas y objetivos del software'],
       correct_answer: 'Objetivos',
     },
     {
       number: 295,
       question:
-        'El paso de generación de código realiza la tarea Seleccione la opción correcta:',
+        'El paso de generación de código realiza la tarea. Seleccione la opción correcta:',
       answers: [
         'Especificación traducida a una forma legible por máquina',
         'Diseño traducido en una forma legible por máquina',
@@ -2980,7 +2970,7 @@ export const informatica2023: Props = {
     {
       number: 302,
       question:
-        'Los arquitectos están influenciados por cuál de los siguientes factores?',
+        'Los arquitectos están influenciados por cuál de los siguientes factores:',
       answers: [
         'Clientes y usuarios finales',
         'Organización en desarrollo',
@@ -3032,7 +3022,7 @@ export const informatica2023: Props = {
         '¿Cuánto debería costar un producto?',
         '¿Qué ayuda proporciona el lenguaje de descripción de Arquitectura?',
         '¿Qué es el análisis de dominio?',
-        'No de lo mencionado',
+        'Nada de lo mencionado',
       ],
       correct_answer: '¿Cuánto debería costar un producto?',
     },
@@ -3422,7 +3412,7 @@ export const informatica2023: Props = {
     },
     {
       number: 341,
-      question: 'Un sistema de gestión del conocimiento ',
+      question: 'Un sistema de gestión del conocimiento: ',
       answers: [
         'Indexa todo el conocimiento contenido dentro de una organización',
         'Soporta el almacenamiento y acceso a documentos dentro de una organización',
@@ -3521,7 +3511,7 @@ export const informatica2023: Props = {
     {
       number: 350,
       question:
-        'El término “ _____ ” describe una empresa planificada que produce un nuevo sistema de información',
+        'El término _____ describe una empresa planificada que produce un nuevo sistema de información',
       answers: [
         'Proyecto de desarrollo de sistemas',
         'Fase',
@@ -3533,7 +3523,7 @@ export const informatica2023: Props = {
     {
       number: 351,
       question:
-        'La mayoría de los sistemas de información nuevos deben comunicarse con otros sistemas existentes, por lo que el diseño del método y los detalles de estos enlaces de comunicación deben definirse con precisión Estos se llaman:',
+        'La mayoría de los sistemas de información nuevos deben comunicarse con otros sistemas existentes, por lo que el diseño del método y los detalles de estos enlaces de comunicación deben definirse con precisión. Estos se llaman:',
       answers: [
         'Modelos',
         'Interfaces del sistema',
@@ -3545,7 +3535,7 @@ export const informatica2023: Props = {
     {
       number: 352,
       question:
-        'El término " _____ " significa que las actividades laborales se realizan una vez, luego otra vez, y una vez más',
+        'El término _____ significa que las actividades laborales se realizan una vez, luego otra vez, y una vez más',
       answers: [
         'Programación eXtreme (XP)',
         'Iteración',
@@ -3713,12 +3703,12 @@ export const informatica2023: Props = {
         'Planificación del proyecto',
         'Diseño del proyecto',
       ],
-      correct_answer: 'Gestión de proyectos',
+      correct_answer: 'Diseño del proyecto',
     },
     {
       number: 371,
       question:
-        'Un software _____ proporciona el marco a partir del cual se puede establecer un plan integral para el desarrollo de software',
+        'Un _____ de software proporciona un marco de trabajo a partir del cual se puede establecer un plan integral para el desarrollo de software',
       answers: ['Personas', 'Producto', 'Proceso', 'Ninguno de los mencionados'],
       correct_answer: 'Proceso',
     },
@@ -3760,7 +3750,7 @@ export const informatica2023: Props = {
     },
     {
       number: 375,
-      question: '¿Cuál de las siguientes es una actividad intensiva en personas?',
+      question: '¿Cuál de las siguientes es una actividad intensiva en personal?',
       answers: [
         'Resolución de problemas',
         'Organización',
@@ -3779,7 +3769,7 @@ export const informatica2023: Props = {
         'Paradigma cerrado',
         'Paradigma síncrono',
       ],
-      correct_answer: 'Paradigma abierto',
+      correct_answer: 'Paradigma síncrono',
     },
     {
       number: 377,
@@ -3856,7 +3846,7 @@ export const informatica2023: Props = {
     {
       number: 384,
       question: 'COCOMO fue desarrollado inicialmente por:',
-      answers: ['B Beizer', 'Rajiv Gupta', 'B W Bohem', 'Gregg Rothermal'],
+      answers: ['B. Beizer', 'Rajiv Gupta', 'B. W. Bohem', 'Gregg Rothermal'],
       correct_answer: 'B W Bohem',
     },
     {
@@ -3905,10 +3895,10 @@ export const informatica2023: Props = {
       answers: [
         'Crear un plan de contingencia',
         'Crear un plan de gestión de riesgos',
-        'Crear una WBS',
+        'Crear una estructura de desglose del trabajo (WBS)',
         'Crear una declaración de alcance',
       ],
-      correct_answer: 'Crear una WBS',
+      correct_answer: 'Crear una estructura de desglose del trabajo (WBS)',
     },
     {
       number: 390,
@@ -3932,7 +3922,7 @@ export const informatica2023: Props = {
     {
       number: 392,
       question:
-        'Una organización está certificada según un estándar medioambiental estricto y la utiliza como diferenciador clave con sus competidores Método alternativo está disponible pero implica mucho riesgo ¿Qué debe hacer el equipo del proyecto?',
+        'Una organización está certificada según un estándar medioambiental estricto y la utiliza como diferenciador clave con sus competidores. Método alternativo está disponible pero implica mucho riesgo ¿Qué debe hacer el equipo del proyecto?',
       answers: [
         'Soltar el enfoque alternativo',
         'Elaborar un plan de mitigación',
@@ -3975,7 +3965,7 @@ export const informatica2023: Props = {
       number: 396,
       question:
         'Antes de que los requisitos puedan analizarse, modelarse o especificarse, se deben reunir a través de un/una:',
-      answers: ['Proceso de elicitación', 'Entrevista', 'Reunión', 'Ninguno de dado'],
+      answers: ['Proceso de elicitación', 'Entrevista', 'Reunión', 'Ninguno'],
       correct_answer: 'Proceso de elicitación',
     },
     {
@@ -4009,7 +3999,6 @@ export const informatica2023: Props = {
       correct_answer: 'Mitos de gestión de proyectos',
     },
     {
-      //TODO
       number: 400,
       question: 'El alcance definido es un:',
       answers: [
@@ -4047,7 +4036,7 @@ export const informatica2023: Props = {
     {
       number: 404,
       question:
-        'Muchos proyectos de software se desvían del alcance original debido a la naturaleza del producto de software o La tecnología utilizada, se produce en:',
+        'Muchos proyectos de software se desvían del alcance original debido a la naturaleza del producto de software o la tecnología utilizada, se produce en:',
       answers: [
         'El alcance del producto cambió hacia el final del ciclo de vida del proyecto',
         'Desarrollo de software orientado a la investigación',
@@ -4067,13 +4056,6 @@ export const informatica2023: Props = {
         'Marco',
       ],
       correct_answer: 'Proceso de software',
-    },
-    {
-      number: 406,
-      question:
-        'Antes de que los requisitos puedan analizarse, modelarse o especificarse, se deben reunir a través de un/una:',
-      answers: ['Proceso de elicitación', 'Entrevista', 'Reunión', 'Ninguno de dado'],
-      correct_answer: 'Proceso de elicitación',
     },
   ],
 };

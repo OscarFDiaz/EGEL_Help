@@ -405,6 +405,14 @@ body {
   width: 100%;
 }
 
+.border-radius-32 {
+  border-radius: 2rem;
+}
+
+.border-radius-16 {
+  border-radius: 0.5rem;
+}
+
 .main {
   width: 90%;
   max-width: 1200px;
