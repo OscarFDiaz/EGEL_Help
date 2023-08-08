@@ -152,7 +152,7 @@ export const informatica2023: Props = {
     {
       number: 12,
       question: 'La prueba de aceptación también se conoce como:',
-      correct_answer: 'prueba beta',
+      correct_answer: 'Prueba beta',
       answers: [
         'Prueba de caja gris',
         'Prueba de caja blanca',
@@ -462,7 +462,7 @@ export const informatica2023: Props = {
     {
       number: 45,
       question:
-        '_____ las clases se usan para crear la interfaz que el usuario ve e interactúa a medida que se usa el software',
+        'Las clases _____ se utilizan para crear la interfaz que el usuario ve y con la que interactúa cuando utiliza el software.',
       answers: ['Controlador', 'Entidad', 'Límite', 'Negocios'],
       correct_answer: 'Límite',
     },
@@ -483,7 +483,7 @@ export const informatica2023: Props = {
       number: 47,
       question: 'Un objeto de datos también puede encapsular procesos y operaciones',
       answers: ['Verdad', 'Falso'],
-      correct_answer: 'Verdad',
+      correct_answer: 'Falso',
     },
     {
       number: 48,
@@ -518,8 +518,8 @@ export const informatica2023: Props = {
     {
       number: 52,
       question: '¿Cuál de los siguientes no forma parte del informe de errores?',
-      answers: ['Caso de prueba', 'Salida', 'Versión de software', 'LOC'],
-      correct_answer: 'LOC',
+      answers: ['Caso de prueba', 'Salida', 'Versión de software', 'LOC(Line of code)'],
+      correct_answer: 'LOC(Line of code)',
     },
     {
       number: 53,
@@ -585,7 +585,7 @@ export const informatica2023: Props = {
         'Ingeniería inversa',
         'Reingeniería',
       ],
-      correct_answer: 'Ingeniería de software',
+      correct_answer: 'Ingeniería inversa',
     },
     {
       number: 60,
@@ -880,7 +880,7 @@ export const informatica2023: Props = {
         'La página de inicio',
         'La columna vertebral',
       ],
-      correct_answer: 'La última milla',
+      correct_answer: 'La página de inicio',
     },
     {
       number: 89,
